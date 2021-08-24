@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "../styles/components/layout";
-import Link from "next/link";
+import Nav from "../components/nav";
+import Footer from "../components/footer";
 
 export default function Faq() {
   return (
@@ -8,9 +9,7 @@ export default function Faq() {
       <Head>
         <title>Fluid Aesthetics, About</title>
       </Head>
-      <nav>
-        <Link href="/">Home</Link>
-      </nav>
+      <Nav></Nav>
       <main className={Layout.main}>
         <h1>FAQ</h1>
         <p>
@@ -32,6 +31,7 @@ export default function Faq() {
           culpa dolorum?
         </p>
       </main>
+      <Footer></Footer>
     </Layout>
   );
 }

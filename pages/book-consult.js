@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "../styles/components/layout";
-import Link from "next/link";
+import Nav from "../components/nav";
+import Footer from "../components/footer";
 
 export default function BookConsult() {
   return (
@@ -8,9 +9,7 @@ export default function BookConsult() {
       <Head>
         <title>Book A Consultation</title>
       </Head>
-      <nav>
-        <Link href="/">Home</Link>
-      </nav>
+      <Nav></Nav>
       <main className={Layout.main}>
         <h1>Book a consultation</h1>
         <p>
@@ -32,6 +31,7 @@ export default function BookConsult() {
           culpa dolorum?
         </p>
       </main>
+      <Footer></Footer>
     </Layout>
   );
 }

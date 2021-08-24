@@ -1,37 +1,37 @@
 import Head from "next/head";
 import Layout from "../styles/components/layout";
 import Link from "next/link";
+import Nav from "../components/nav";
 
 export default function About() {
   return (
     <Layout>
-        <Head>
-          <title>Fluid Aesthetics, About</title>
-        </Head>
-        <nav>
-          <Link href="/">Home</Link>
-        </nav>
-        <main className={Layout.main}>
-          <h1>About</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-            culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
-            perspiciatis tempora repellat atque pariatur. Sapiente unde rem
-            illum culpa dolorum?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-            culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
-            perspiciatis tempora repellat atque pariatur. Sapiente unde rem
-            illum culpa dolorum?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-            culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
-            perspiciatis tempora repellat atque pariatur. Sapiente unde rem
-            illum culpa dolorum?
-          </p>
-        </main>
+      <Head>
+        <title>Fluid Aesthetics, About</title>
+      </Head>
+
+      <Nav></Nav>
+      <main className={Layout.main}>
+        <h1>About</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
+          perspiciatis tempora repellat atque pariatur. Sapiente unde rem illum
+          culpa dolorum?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
+          perspiciatis tempora repellat atque pariatur. Sapiente unde rem illum
+          culpa dolorum?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
+          perspiciatis tempora repellat atque pariatur. Sapiente unde rem illum
+          culpa dolorum?
+        </p>
+      </main>
     </Layout>
   );
 }

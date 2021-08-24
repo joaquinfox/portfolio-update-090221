@@ -14,60 +14,56 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Fluid <a href="https://nextjs.org">Aesthetics</a>
+          Fluid <a>Aesthetics</a>
         </h1>
 
         <div className={styles.grid}>
-          <Link href="/about" className={styles.card} >
-            <a>
-              <article className={styles.card}>
-                <h2>About Fluid Aesthetics&rarr;</h2>
-                <p>
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque odit earum ea quisquam vitae autem consequuntur illo, commodi ipsa! Pariatur id aspernatur quidem nobis facere in praesentium ullam obcaecati hic?
-                </p>
-              </article>
-            </a>
-          </Link>
-
-          {/* <Link href="/book-consult" className={styles.card}>
-            <a>
-              <article className={styles.card}>
-                <h2>Book a consultation&rarr;</h2>
-                <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum recusandae est laudantium eos asperiores, iste corrupti debitis numquam voluptatum quas, vitae saepe. Eveniet odit sint eum tenetur maiores accusamus dolorum!
-                </p>
-              </article>
-            </a>
-          </Link> */}
-          {/* <Link href="/faq">
-            <a>
-              <article className={styles.card}>
-                <h2>FAQ&rarr;</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, distinctio. Maxime eum ad pariatur accusamus. Laboriosam, dolorem ipsam eos ea animi, natus optio laudantium illum sapiente earum doloribus nesciunt cumque?</p>
-              </article>
-            </a>
-          </Link> */}
-          {/* <Link href="/staff-bios">
-            <a>
-              <article className={styles.card}>
-                <h2>Staff Bios&rarr;</h2>
-                <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod minus cumque, officiis dicta, quam dolorum delectus praesentium, porro libero natus suscipit veniam inventore voluptas veritatis quaerat? Repudiandae recusandae cumque beatae!
-                </p>
-              </article>
-            </a>
-          </Link> */}
+            <article className={styles.card}>
+          <a>
+              <Link href="/about">
+                <h2 className={styles.title}>About Fluid Aesthetics&rarr;</h2>
+              </Link>
+              <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, asperiores p</p>
+          </a>
+            </article>
+          <article className={styles.card}>
+            <Link href="/book-consult">
+              <a>
+                <h2 className={styles.title}>Book a consultation&rarr;</h2>
+              </a>
+            </Link>
+            <p className={styles.description}>bcaecati doloribus.</p>
+          </article>
+          <article className={styles.card}>
+            <Link href="/staff-bios">
+              <a>
+                <h2 className={styles.title}>Our team&rarr;</h2>
+              </a>
+            </Link>
+            <p className={styles.description}> Loantium rerum ullam dicta provident repellat.</p>
+          </article>
+          <article className={styles.card}>
+            <Link href="/faq">
+              <a>
+                <h2 className={styles.title}>FAQ&rarr;</h2>
+              </a>
+            </Link>
+            <p className={styles.description}>Londerit, illum quos tempora vel cum minima!</p>
+          </article>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://joaquinfox.github.io/profile//"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Built by JoaquinFox.com
-        </a>
+        <p>
+          Built by
+          <a
+            href="https://joaquinfox.github.io/profile//"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Joaquin
+          </a>
+        </p>
       </footer>
     </div>
   );

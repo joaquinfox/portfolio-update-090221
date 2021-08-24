@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/components/Home.module.css";
 import Link from "next/link";
 
 export default function Home() {
@@ -18,50 +18,45 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <Link href="/about">
+          <Link href="/about" className={styles.card} >
             <a>
               <article className={styles.card}>
                 <h2>About Fluid Aesthetics&rarr;</h2>
                 <p>
-                  Lorem, lorem ipsum dolor sit amet consectetur adipisicing
-                  elit.{" "}
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque odit earum ea quisquam vitae autem consequuntur illo, commodi ipsa! Pariatur id aspernatur quidem nobis facere in praesentium ullam obcaecati hic?
                 </p>
               </article>
             </a>
           </Link>
 
-          <Link href="/book-consult">
+          {/* <Link href="/book-consult" className={styles.card}>
             <a>
               <article className={styles.card}>
                 <h2>Book a consultation&rarr;</h2>
                 <p>
-                  sit amet consectetur adipisicing elit. Lorem ire qui nam
-                  temporibus sit a, voluptate assumenda placeat corporis cum
-                  esse quo ab.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum recusandae est laudantium eos asperiores, iste corrupti debitis numquam voluptatum quas, vitae saepe. Eveniet odit sint eum tenetur maiores accusamus dolorum!
                 </p>
               </article>
             </a>
-          </Link>
-          <Link href="/faq">
+          </Link> */}
+          {/* <Link href="/faq">
             <a>
               <article className={styles.card}>
                 <h2>FAQ&rarr;</h2>
-                <p>l Ad consectetur suscipit laboriosam tempore illo?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, distinctio. Maxime eum ad pariatur accusamus. Laboriosam, dolorem ipsam eos ea animi, natus optio laudantium illum sapiente earum doloribus nesciunt cumque?</p>
               </article>
             </a>
-          </Link>
-          <Link href="/staff-bios">
+          </Link> */}
+          {/* <Link href="/staff-bios">
             <a>
               <article className={styles.card}>
                 <h2>Staff Bios&rarr;</h2>
                 <p>
-                  {" "}
-                  ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-                  accusamus sit ipsa audantium rem culpa.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod minus cumque, officiis dicta, quam dolorum delectus praesentium, porro libero natus suscipit veniam inventore voluptas veritatis quaerat? Repudiandae recusandae cumque beatae!
                 </p>
               </article>
             </a>
-          </Link>
+          </Link> */}
         </div>
       </main>
 

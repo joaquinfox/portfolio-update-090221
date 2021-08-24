@@ -1,17 +1,17 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Layout from "../styles/components/layout";
 import Link from "next/link";
 
 export default function Faq() {
   return (
-    <div className={styles.container}>
+    <Layout className={Layout.container}>
       <Head>
         <title>Fluid Aesthetics, About</title>
       </Head>
       <nav>
         <Link href="/">Home</Link>
       </nav>
-      <main className={styles.main}>
+      <main className={Layout.main}>
         <h1>FAQ</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
@@ -32,6 +32,6 @@ export default function Faq() {
           culpa dolorum?
         </p>
       </main>
-    </div>
+    </Layout>
   );
 }

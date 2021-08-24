@@ -30,26 +30,38 @@ export default function Home() {
             </a>
           </Link>
 
-          <article className={styles.card}>
-            <h2>Book a consultation&rarr;</h2>
-            <p>
-              sit amet consectetur adipisicing elit. Lorem ire qui nam
-              temporibus sit a, voluptate assumenda placeat corporis cum esse
-              quo ab.
-            </p>
-          </article>
-          <article className={styles.card}>
-            <h2>FAQ&rarr;</h2>
-            <p>l Ad consectetur suscipit laboriosam tempore illo?</p>
-          </article>
-          <article className={styles.card}>
-            <h2>Staff Bios&rarr;</h2>
-            <p>
-              {" "}
-              ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-              accusamus sit ipsa audantium rem culpa.
-            </p>
-          </article>
+          <Link href="/book-consult">
+            <a>
+              <article className={styles.card}>
+                <h2>Book a consultation&rarr;</h2>
+                <p>
+                  sit amet consectetur adipisicing elit. Lorem ire qui nam
+                  temporibus sit a, voluptate assumenda placeat corporis cum
+                  esse quo ab.
+                </p>
+              </article>
+            </a>
+          </Link>
+          <Link href="/faq">
+            <a>
+              <article className={styles.card}>
+                <h2>FAQ&rarr;</h2>
+                <p>l Ad consectetur suscipit laboriosam tempore illo?</p>
+              </article>
+            </a>
+          </Link>
+          <Link href="/staff-bios">
+            <a>
+              <article className={styles.card}>
+                <h2>Staff Bios&rarr;</h2>
+                <p>
+                  {" "}
+                  ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+                  accusamus sit ipsa audantium rem culpa.
+                </p>
+              </article>
+            </a>
+          </Link>
         </div>
       </main>
 

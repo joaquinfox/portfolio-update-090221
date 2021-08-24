@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "../styles/components/layout";
 import Link from "next/link";
 import Nav from "../components/nav";
+import Footer from "../components/footer";
 
 export default function About() {
   return (
@@ -32,6 +33,7 @@ export default function About() {
           culpa dolorum?
         </p>
       </main>
+      <Footer></Footer>
     </Layout>
   );
 }

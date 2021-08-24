@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,27 +18,38 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <article className={styles.card}>
-            <h2>About Fluid Aesthetics&rarr;</h2>
-            <p>Lorem, lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-          </article>
+          <Link href="/about">
+            <a>
+              <article className={styles.card}>
+                <h2>About Fluid Aesthetics&rarr;</h2>
+                <p>
+                  Lorem, lorem ipsum dolor sit amet consectetur adipisicing
+                  elit.{" "}
+                </p>
+              </article>
+            </a>
+          </Link>
 
           <article className={styles.card}>
-            <h2>Book a consultation &rarr;</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ire qui nam temporibus sit a, voluptate assumenda placeat corporis cum esse quo ab.</p>
+            <h2>Book a consultation&rarr;</h2>
+            <p>
+              sit amet consectetur adipisicing elit. Lorem ire qui nam
+              temporibus sit a, voluptate assumenda placeat corporis cum esse
+              quo ab.
+            </p>
           </article>
           <article className={styles.card}>
             <h2>FAQ&rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>l Ad consectetur suscipit laboriosam tempore illo?</p>
           </article>
           <article className={styles.card}>
-            <h2>Staff Bios &rarr;</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem accusamus sit ipsa audantium rem culpa.</p>
+            <h2>Staff Bios&rarr;</h2>
+            <p>
+              {" "}
+              ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+              accusamus sit ipsa audantium rem culpa.
+            </p>
           </article>
-
-  
-
-   
         </div>
       </main>
 
@@ -47,10 +59,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Built by{" "}
-          
-        JoaquinFox.com
-        
+          Built by JoaquinFox.com
         </a>
       </footer>
     </div>

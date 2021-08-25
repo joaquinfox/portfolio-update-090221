@@ -12,24 +12,26 @@ export default function BookConsult() {
       <Nav></Nav>
       <main className={Layout.main}>
         <h1>Book a consultation</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
-          perspiciatis tempora repellat atque pariatur. Sapiente unde rem illum
-          culpa dolorum?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
-          perspiciatis tempora repellat atque pariatur. Sapiente unde rem illum
-          culpa dolorum?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
-          perspiciatis tempora repellat atque pariatur. Sapiente unde rem illum
-          culpa dolorum?
-        </p>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
+            perspiciatis tempora repellat atque pariatur. Sapiente unde rem
+            illum culpa dolorum?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
+            perspiciatis tempora repellat atque pariatur. Sapiente unde rem
+            illum culpa dolorum?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            culpa distinctio non vitae iusto deleniti odit placeat? Cumque sint
+            perspiciatis tempora repellat atque pariatur. Sapiente unde rem
+            illum culpa dolorum?
+          </p>
+        </article>
       </main>
       <Footer></Footer>
     </Layout>

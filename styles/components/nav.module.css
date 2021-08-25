@@ -1,0 +1,14 @@
+.nav {
+  width: 100vw;
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.nav > * {
+  padding: 2%;
+  margin: auto;
+  transition: all 0.15s ease;
+}
+.nav > *:hover {
+  color: #0070f3;
+}

@@ -46,8 +46,8 @@ export default function BookConsult() {
               layout=""
             ></Image>
           </div>
-            <h4>Abby Sue</h4>
-          
+          <h4>Abby Sue</h4>
+
           <p>
             sit amet consectetur adipisicing elit. Praesentium culpa distinctio
             non vitae iusto deleniti odit placeat? Cumque sint perspiciatis
@@ -65,6 +65,26 @@ export default function BookConsult() {
       <style jsx>{`
         .profile-pic-container {
           margin: auto;
+        }
+        button {
+          width: 30%;
+          margin: auto;
+          padding: 2%;
+          background-color:#0070f3;
+          color:white;
+          border-radius:8%;
+          letter-spacing:1px;
+          font-weight: bold;
+          text-transform: uppercase;
+          border: none;
+          transition: all 0.15s linear;
+        }
+        
+        button:hover{
+          color:#0070f3;
+          background-color:white;
+          border: 1px solid #0070f3;
+        }
         }
       `}</style>
     </Layout>

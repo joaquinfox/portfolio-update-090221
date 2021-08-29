@@ -56,7 +56,7 @@ export default function provider1() {
           outline: none;
           border: none;
         }
-      
+
         @media screen and (max-width: 600px) {
           article > button:hover {
             color: #0070f3;

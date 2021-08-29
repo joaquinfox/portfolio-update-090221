@@ -1,14 +1,41 @@
 .nav {
-  width: 100vw;
-  display: flex;
   border-bottom: 1px solid #eaeaea;
 }
 
-.nav > * {
+.nav > ul {
+  width: 100vw;
+  margin: auto;
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav > ul > * {
   padding: 2%;
   margin: auto;
   transition: all 0.15s ease;
 }
-.nav > *:hover {
+.nav > ul > *:hover {
   color: #0070f3;
+}
+
+.nav > div {
+  margin-top: 50%;
+}
+.nav > div > span {
+  display: none;
+  margin: 4px;
+  height: 5px;
+  width: 40px;
+  background: #0070f3;
+  border-radius: 9px;
+}
+@media screen and (max-width: 600px) {
+  .nav > div > span {
+    display: block;
+  }
+
+  .nav > ul {
+    display: none;
+    /* color: red; */
+  }
 }

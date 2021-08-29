@@ -14,7 +14,8 @@ export default function provider1() {
       </Head>
       <Nav></Nav>
       <main className={Layout.main}>
-        <h4>Choose your appointment type</h4>
+        <h1>Booking</h1>
+        <h4>You are scheduling a consultation with <span>Provider 1</span></h4>
         <article>
           <button>
             <a href="https://calendly.com/joaquin-fox/new-patient-consultation">
@@ -29,7 +30,7 @@ export default function provider1() {
         <article>
           <button>
             <a href="https://calendly.com/joaquin-fox/30min">
-              <h4>Shorter Consulations</h4>
+              <h4>Shorter Consultations</h4>
               <p>
                 Lorem ipsum, dolor sitesse rem et laborum magnam, porro tempore
                 voluptatem? Molestias!&rarr;

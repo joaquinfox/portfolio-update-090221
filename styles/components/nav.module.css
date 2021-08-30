@@ -19,7 +19,6 @@
 }
 
 .nav > div {
-  margin-top: 50%;
 }
 .nav > div > span {
   display: none;
@@ -33,9 +32,11 @@
   .nav > div > span {
     display: block;
   }
+  .nav > div {
+    margin-top: 50%;
+  }
 
   .nav > ul {
     display: none;
-    /* color: red; */
   }
 }

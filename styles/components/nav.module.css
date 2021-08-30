@@ -28,6 +28,9 @@
   background: #0070f3;
   border-radius: 9px;
 }
+.nav > div > ul {
+  /* color: red; */
+}
 @media screen and (max-width: 600px) {
   .nav > div > span {
     display: block;

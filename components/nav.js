@@ -15,6 +15,7 @@ export default function nav() {
       // pass a style to the component
     } else {
       console.log(`big screen`, s);
+      setReveal(false);
       setStyle("big");
     }
     setSize(s);
@@ -34,17 +35,6 @@ export default function nav() {
   const toggleNav = () => {
     setReveal(!reveal);
   };
-  // return (
-  //   <>
-  //     <h1 className={style}>window</h1>
-  //     <h2>{size} PX</h2>
-  //     <style jsx>{`
-  //       .small {
-  //         color: red;
-  //       }
-  //     `}</style>
-  //   </>
-  // );
 
   return (
     <Nav>
@@ -67,7 +57,7 @@ export default function nav() {
           // float: "right",
         }}
       >
-        <ul className={style}>
+        <ul className={(style, "dropDown")}>
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -89,9 +79,22 @@ export default function nav() {
         </ul>
       </div>
       <style jsx>{`
-       
         .dropDown {
-          background-color: black;
+          border: 3px solid #0070f3;
+          color: #0070f3;
+          background-color: rgba(255, 255, 255, 1);
+          position: absolute;
+          top: 40px;
+          right: 0px;
+          // z-index: 0;
+        }
+        .dropDown > li {
+          list-style: none;
+          margin-top: 100%;
+          letter-spacing: 2px;
+        }
+        .small {
+          color: red;
         }
       `}</style>
     </Nav>

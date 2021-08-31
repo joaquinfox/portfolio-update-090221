@@ -4,15 +4,14 @@
 
 .nav > ul {
   width: 100vw;
-  margin: auto;
-  padding: 2%;
+  /* margin: auto; */
+  /* padding: 2%; */
   display: flex;
   justify-content: space-around;
 }
 .nav > ul > * {
-  padding: 2%;
-  margin: auto;
-  transition: all 0.15s ease;
+
+  /* transition: all 0.15s ease; */
 }
 .nav > ul > *:hover {
   color: #0070f3;
@@ -36,7 +35,7 @@
     display: block;
   }
   .nav > div {
-    margin-top: 50%;
+    /* margin-top: 50%; */
   }
 
   .nav > ul {

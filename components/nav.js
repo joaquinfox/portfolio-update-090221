@@ -49,7 +49,8 @@ export default function nav() {
         <Link href="/staff-bios">Our Team</Link>
         <Link href="/faq">FAQ</Link>
       </ul>
-      <div onClick={() => toggleNav()}>
+
+      <div onClick={() => toggleNav()} style={{ cursor: "pointer" }}>
         <span></span>
         <span></span>
         <span></span>
@@ -76,9 +77,7 @@ export default function nav() {
           </li>
         </ul>
       </div>
-      <style jsx>{`
-   
-      `}</style>
+      <style jsx>{``}</style>
     </Nav>
   );
 }

@@ -6,6 +6,7 @@
   display: flex;
   border-bottom: 1px solid #eaeaea;
   justify-content: space-around;
+  padding-bottom: 2%;
 }
 
 .nav > ul > *:hover {

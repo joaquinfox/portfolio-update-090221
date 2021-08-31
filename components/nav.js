@@ -4,19 +4,21 @@ import Nav from "../styles/components/nav";
 
 export default function nav() {
   const [size, setSize] = useState(0);
-  const [style, setStyle] = useState("small");
+  // const [style, setStyle] = useState("small");
   const [reveal, setReveal] = useState(false);
+  const [dropdownWidth, setDropdownWidth] = useState(0);
+  const [opacity, setOpacity] = useState(0);
 
   const checkSize = async () => {
     let s = await window.innerWidth;
     if (s < 600) {
       console.log(`small screen`, s);
-      setStyle("small");
+      // setStyle("small");
       // pass a style to the component
     } else {
       console.log(`big screen`, s);
       setReveal(false);
-      setStyle("big");
+      // setStyle("big");
     }
     setSize(s);
   };
@@ -31,9 +33,15 @@ export default function nav() {
       window.removeEventListener("resize", checkSize);
     };
   }, [size]);
-
   const toggleNav = () => {
     setReveal(!reveal);
+    if (reveal) {
+      setDropdownWidth(`25%`);
+      setOpacity(1);
+    } else {
+      setDropdownWidth("0px");
+      setOpacity(0);
+    }
   };
 
   return (
@@ -50,14 +58,8 @@ export default function nav() {
         <span></span>
         <span></span>
       </div>
-      <div
-        style={{
-          display: reveal ? "block" : "none",
-          // backgroundColor: "black",
-          // float: "right",
-        }}
-      >
-        <ul className={(style, "dropDown")}>
+      <div>
+        <ul style={{ width: dropdownWidth, opacity: opacity }}>
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -78,25 +80,6 @@ export default function nav() {
           </li>
         </ul>
       </div>
-      <style jsx>{`
-        .dropDown {
-          border: 3px solid #0070f3;
-          color: #0070f3;
-          background-color: rgba(255, 255, 255, 1);
-          position: absolute;
-          top: 40px;
-          right: 0px;
-          // z-index: 0;
-        }
-        .dropDown > li {
-          list-style: none;
-          margin-top: 100%;
-          letter-spacing: 2px;
-        }
-        .small {
-          color: red;
-        }
-      `}</style>
     </Nav>
   );
 }

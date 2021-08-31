@@ -1,24 +1,25 @@
 # Fluid Aesthetics
 
 ## User Stories
+
 - An attractive landing page
-- A menu bar linking to the following pages
-    - About
-    - FAQ
-    - Book an appointment via phone call
-    - Bios
+- A menu bar linking to the following pages - About - FAQ - Book an appointment via phone call - Bios
 
+      ## Collapsible Nav
 
-    ## Collapsible Nav
-    - cannot seem to use window.innerWidth in Next  .. ah but it hasn't loaded yet ... make it async
+  This is the most involved component in fluidaesthetics. Here is a walk through:
 
-    - so if the screen size is small, display the hamburger and hide the main nav
-        - if the reveal, show the drop down
-            - else hide the dropdown but show the hamburger
-    - if the screen size is large, display the main nav and hide the hamburger
+- The nav.js component contains 3 DOM elements
+  - a ul that holds the main navigation, for large screen sizes
+  - a div that holds the hamburger, for small screen sizes
+  - div containing a second ul, that holds the dropdown menu, which works together with the hamburger.
 
-    did all this!
+.
+  - I use two useEffect hooks
+    - one watches for changes to screen size. whenever there is a change, it calls a function checkSize which in turn, determines whether or not to reveal the dropdown.
+    - media query's determine when to reveal the hamburger icon and the main nav.
+    - the second useEffect calls the checkSize function once (because I couldn't use a default state of window.innerWidth on page load, since the window object is not available during page load)
+    - the hamburger has a click handler that calls toggleNav(), which shows or hides the dropdown by toggling the 'reveal' state hook value and using that state to set an in-line display on the dropdown.
+        - if reveal, then states are set for opacity and width. these states are passed to the dropdown element as inline styles.
 
-    - make the links work
-    - ok so i had it so that everything worked great, capturing screen size in state, using the size to define a state "small" or "big"...earlier i figured  out how then use that state as a class... but now i forgot!!  
-    - now i need the dropdown to go away when the screen size is large. I have captured the screen size so i should just be able to evaluate it and if it is big then set a state on the dropdown...
+    

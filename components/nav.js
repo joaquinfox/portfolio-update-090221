@@ -4,7 +4,7 @@ import Nav from "../styles/components/nav";
 
 export default function nav() {
   const [size, setSize] = useState(0);
-  const [reveal, setReveal] = useState(false);
+  const [reveal, setReveal] = useState(true);
   const [dropdownWidth, setDropdownWidth] = useState(0);
   const [opacity, setOpacity] = useState(0);
 

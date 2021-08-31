@@ -22,9 +22,6 @@
   background: #0070f3;
   border-radius: 9px;
 }
-.nav:nth-of-type(2) {
-  background-color: red;
-}
 
 /* Drop down */
 .nav > div > ul {
@@ -34,20 +31,20 @@
   position: absolute;
   top: 0;
   right: 1%;
-  transition: all 0.2s linear;
-  display: flex;
-  flex-direction: column;
+  transition: all 0.15s linear;
   padding: 1%;
 }
-.nav > div > ul > li {
+
+
+.nav li {
   list-style: none;
-  margin: 5% auto;
-  letter-spacing: 1px;
+  margin: 10%;
+  letter-spacing: 2px;
+}
+.nav li:hover {
+  text-decoration: underline;
 }
 
-.nav > div > ul > li:hover {
-  text-decoration-line: underline;
-}
 @media screen and (max-width: 600px) {
   .nav > div > span {
     display: block;
@@ -55,7 +52,6 @@
   .nav > div {
     margin-top: 50%;
 
-    /* transition: all 2.15s ease; */
   }
 
   .nav > ul {

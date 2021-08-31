@@ -54,7 +54,7 @@ export default function nav() {
         <span></span>
         <span></span>
       </div>
-      <div >
+      <div>
         <ul style={{ width: dropdownWidth, opacity: opacity }}>
           <li>
             <Link href="/">Home</Link>
@@ -76,6 +76,9 @@ export default function nav() {
           </li>
         </ul>
       </div>
+      <style jsx>{`
+   
+      `}</style>
     </Nav>
   );
 }

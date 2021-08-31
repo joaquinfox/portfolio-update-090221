@@ -1,6 +1,6 @@
 .nav {
 }
-
+/***Primary Nav** */
 .nav > ul {
   width: 100vw;
   display: flex;
@@ -13,6 +13,7 @@
   color: #0070f3;
 }
 
+/* Icon */
 .nav > div > span {
   display: none;
   margin: 4px;
@@ -25,15 +26,15 @@
   background-color: red;
 }
 
+/* Drop down */
 .nav > div > ul {
   border-radius: 6%;
   color: white;
-
   background-color: rgba(0, 112, 243, 0.9);
   position: absolute;
-  top: 1%;
-  right: 10%;
-  transition: all 0.15s linear;
+  top: 0;
+  right: 1%;
+  transition: all 0.2s linear;
   display: flex;
   flex-direction: column;
   padding: 1%;
@@ -58,6 +59,12 @@
   }
 
   .nav > ul {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .nav > div > ul {
     display: none;
   }
 }

@@ -4,7 +4,6 @@ import Nav from "../styles/components/nav";
 
 export default function nav() {
   const [size, setSize] = useState(0);
-  // const [style, setStyle] = useState("small");
   const [reveal, setReveal] = useState(false);
   const [dropdownWidth, setDropdownWidth] = useState(0);
   const [opacity, setOpacity] = useState(0);
@@ -13,12 +12,9 @@ export default function nav() {
     let s = await window.innerWidth;
     if (s < 600) {
       console.log(`small screen`, s);
-      // setStyle("small");
-      // pass a style to the component
     } else {
       console.log(`big screen`, s);
       setReveal(false);
-      // setStyle("big");
     }
     setSize(s);
   };
@@ -58,7 +54,7 @@ export default function nav() {
         <span></span>
         <span></span>
       </div>
-      <div>
+      <div >
         <ul style={{ width: dropdownWidth, opacity: opacity }}>
           <li>
             <Link href="/">Home</Link>

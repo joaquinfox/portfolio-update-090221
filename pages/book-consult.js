@@ -23,6 +23,7 @@ export default function BookConsult() {
               width="150"
               height="150"
               layout=""
+              alt='profile picture of provider 1'
             ></Image>
           </div>
           <h4>Emma James</h4>
@@ -44,6 +45,7 @@ export default function BookConsult() {
               width="150"
               height="150"
               layout=""
+              alt='profile picture of provider 2'
             ></Image>
           </div>
           <h4>Abby Sue</h4>

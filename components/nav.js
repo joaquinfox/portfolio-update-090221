@@ -11,9 +11,10 @@ export default function Nav() {
   const checkSize = async () => {
     let s = await window.innerWidth;
     if (s < 600) {
-      console.log(`small screen`, s);
+      console.log(`small screen`, s, "reveal:", reveal);
+      setReveal(true);
     } else {
-      console.log(`big screen`, s);
+      console.log(`big screen`, s, "reveal:", reveal);
       setReveal(false);
     }
     setSize(s);

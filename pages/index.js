@@ -16,17 +16,21 @@ export default function Home() {
         <h1 className={styles.title}>
           Joaquin <a>Fox</a>
         </h1>
-          <p>Web development, Software Engineering.</p>
+        <p>Web development, Software Engineering.</p>
 
         <div className={styles.grid}>
           <article className={styles.card}>
             <a>
               <Link href="/about">
-                <h2 className={styles.title}>About Fluid Aesthetics&rarr;</h2>
+                <a>
+                  <h2 className={styles.title}>About Fluid Aesthetics&rarr;</h2>
+                </a>
               </Link>
-              <p className={styles.description}>Lorem ipsum dolor sit amet con p</p>
-          </a>
-            </article>
+              <p className={styles.description}>
+                Lorem ipsum dolor sit amet con p
+              </p>
+            </a>
+          </article>
           <article className={styles.card}>
             <Link href="/book-consult">
               <a>

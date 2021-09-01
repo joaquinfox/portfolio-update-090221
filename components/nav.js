@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Nav from "../styles/components/nav";
+import NavStyles from "../styles/components/nav";
 
-export default function nav() {
+export default function Nav() {
   const [size, setSize] = useState(0);
   const [reveal, setReveal] = useState(true);
   const [dropdownWidth, setDropdownWidth] = useState(0);
@@ -41,7 +41,7 @@ export default function nav() {
   };
 
   return (
-    <Nav>
+    <NavStyles>
       <ul>
         <Link href="/">Home</Link>
         <Link href="/book-consult">Book A Visit</Link>
@@ -78,6 +78,6 @@ export default function nav() {
         </ul>
       </div>
       <style jsx>{``}</style>
-    </Nav>
+    </NavStyles>
   );
 }

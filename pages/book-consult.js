@@ -19,7 +19,7 @@ export default function BookConsult() {
           <div className="profile-pic-container">
             <Image
               className="profile-pic"
-              src="/../public/images/profile1.jpg"
+              src="/images/profile1.jpg"
               width="150"
               height="150"
               layout=""
@@ -41,7 +41,7 @@ export default function BookConsult() {
           <div className="profile-pic-container">
             <Image
               className="profile-pic"
-              src="/../public/images/profile2.jpg"
+              src="/images/profile2.jpg"
               width="150"
               height="150"
               layout=""

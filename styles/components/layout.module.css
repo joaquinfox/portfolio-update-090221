@@ -40,7 +40,7 @@
 .container > footer > div > a:hover {
   text-decoration: underline;
 }
-.container > main > article:hover {
+.container, .main, .card:hover {
   border-color: #0070f3;
 }
 

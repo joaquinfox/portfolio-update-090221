@@ -21,7 +21,7 @@ export default function provider1() {
         <article>
           <button>
             <a
-              target="_blank"
+              target="_blank" rel='noreferrer'
               href="https://calendly.com/joaquin-fox/new-patient-consultation"
             >
               <h4>New Patients</h4>
@@ -34,7 +34,7 @@ export default function provider1() {
         </article>
         <article>
           <button>
-            <a target="_blank" href="https://calendly.com/joaquin-fox/30min">
+            <a target="_blank" rel='noreferrer' href="https://calendly.com/joaquin-fox/30min">
               <h4>Shorter Consultations</h4>
               <p>
                 Lorem ipsum, dolor sitesse rem et laborum magnam, porro tempore
@@ -46,7 +46,7 @@ export default function provider1() {
         <article>
           <button>
             <a
-              target="_blank"
+              target="_blank" rel='noreferrer'
               href="https://calendly.com/joaquin-fox/new-patient-consultation"
             >
               <h4>Option Three</h4>

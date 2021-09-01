@@ -23,7 +23,7 @@ export default function BookConsult() {
               width="150"
               height="150"
               layout=""
-              alt='profile picture of provider 1'
+              alt="profile picture of provider 1"
             ></Image>
           </div>
           <h4>Emma James</h4>
@@ -45,7 +45,7 @@ export default function BookConsult() {
               width="150"
               height="150"
               layout=""
-              alt='profile picture of provider 2'
+              alt="profile picture of provider 2"
             ></Image>
           </div>
           <h4>Abby Sue</h4>
@@ -69,23 +69,28 @@ export default function BookConsult() {
           margin: auto;
         }
         button {
-          width: 30%;
           margin: auto;
-          padding: 2%;
+          padding: 2% 3%;
           background-color:#0070f3;
           color:white;
-          border-radius:8%;
-          letter-spacing:1px;
+          border-radius:4%;
+          letter-spacing:2px;
           font-weight: bold;
           text-transform: uppercase;
           border: none;
           transition: all 0.15s linear;
+          font-size:0.75rem
         }
         
         button:hover{
           color:#0070f3;
           background-color:white;
           border: 1px solid #0070f3;
+        }
+        @media (max-width: 600px){
+          button{
+            width:30%;
+          padding:auto;}
         }
         }
       `}</style>

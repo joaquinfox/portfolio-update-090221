@@ -27,7 +27,6 @@
 }
 .container > footer {
   margin-top: auto;
-  display: inline;
   width: 100%;
   text-align: center;
   border-top: 1px solid #eaeaea;
@@ -39,9 +38,6 @@
 }
 .container > footer > div > a:hover {
   text-decoration: underline;
-}
-.container, .main, .card:hover {
-  border-color: #0070f3;
 }
 
 @media (max-width: 600px) {

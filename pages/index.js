@@ -23,7 +23,7 @@ export default function Home() {
               <Link href="/about">
                 <h2 className={styles.title}>About Fluid Aesthetics&rarr;</h2>
               </Link>
-              <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, asperiores p</p>
+              <p className={styles.description}>Lorem ipsum dolor sit amet con p</p>
           </a>
             </article>
           <article className={styles.card}>

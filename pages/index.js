@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/components/Home.module.css";
 import Link from "next/link";
 
@@ -7,29 +6,26 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Joaquin Fox</title>
-        <meta name="description" content="Porfolio site for Joaquinfox.com" />
+        <title>Fluid Aesthetics</title>
+        <meta name="description" content="fluidaesthetics, injectibles, cosmetics, beauty, botox" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Joaquin <a>Fox</a>
+          Fluid <a>Aesthetics</a>
         </h1>
-        <p>Web development, Software Engineering.</p>
 
         <div className={styles.grid}>
           <article className={styles.card}>
-            <a>
-              <Link href="/about">
-                <a>
-                  <h2 className={styles.title}>About Fluid Aesthetics&rarr;</h2>
-                </a>
-              </Link>
-              <p className={styles.description}>
-                Lorem ipsum dolor sit amet con p
-              </p>
-            </a>
+            <Link href="/about">
+              <a>
+                <h2 className={styles.title}>About Fluid Aesthetics&rarr;</h2>
+              </a>
+            </Link>
+            <p className={styles.description}>
+              Lorem ipsum dolor sit amet con p
+            </p>
           </article>
           <article className={styles.card}>
             <Link href="/book-consult">

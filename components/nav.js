@@ -56,7 +56,13 @@ export default function Nav() {
         <span></span>
       </div>
       <div>
-        <ul style={{ width: dropdownWidth, opacity: opacity }}>
+        <ul
+          style={{
+            width: dropdownWidth,
+            opacity: opacity,
+            display: reveal ? "none" : "block",
+          }}
+        >
           <li>
             <Link href="/">Home</Link>
           </li>

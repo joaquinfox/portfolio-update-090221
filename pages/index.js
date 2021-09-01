@@ -24,17 +24,9 @@ export default function Home() {
               <Link href="/about">
                 <h2 className={styles.title}>About Fluid Aesthetics&rarr;</h2>
               </Link>
-<<<<<<< HEAD
               <p className={styles.description}>Lorem ipsum dolor sit amet con p</p>
           </a>
             </article>
-=======
-              <p className={styles.description}>
-                Lorem ipsum dolor sit amet con p
-              </p>
-            </a>
-          </article>
->>>>>>> 9395e281f26e3b44dc6a32a9a1f5ade21fba6afd
           <article className={styles.card}>
             <Link href="/book-consult">
               <a>

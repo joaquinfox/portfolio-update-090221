@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Fluid Aesthetics</title>
+        <title>Joaquin Fox Portfolio Site</title>
         <meta
           name="description"
-          content="fluidaesthetics, injectibles, cosmetics, beauty, botox"
+          content="Joaquin Fox portfolio site"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

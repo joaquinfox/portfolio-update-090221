@@ -14,7 +14,6 @@ export default function Portfolio() {
       <Nav></Nav>
       <main className={Layout.main}>
         <h1>Portfolio</h1>
-        <h4>Who would you like to meet with?</h4>
         <article>
           <div className="profile-pic-container">
             <Image

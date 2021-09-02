@@ -1,10 +1,14 @@
-# Fluid Aesthetics
+# Joaquin Fox Portfolio site
 
 ## Pages
 
 - Landing
-  - About
-  - Booking
-  - Staff Bios
-  - FAQ
+  - portfolio
+    - links to projects
+  - for employers
+    - summary text with links to 
+      - cv
+      - stack
+      - experience
+      
 

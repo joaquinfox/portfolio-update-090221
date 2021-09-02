@@ -5,15 +5,15 @@ import Footer from "../components/footer";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function BookConsult() {
+export default function Portfolio() {
   return (
     <Layout className={Layout.container}>
       <Head>
-        <title>Book A Consultation</title>
+        <title>Joaquin Fox, portfolio</title>
       </Head>
       <Nav></Nav>
       <main className={Layout.main}>
-        <h1>Book a consultation</h1>
+        <h1>Portfolio</h1>
         <h4>Who would you like to meet with?</h4>
         <article>
           <div className="profile-pic-container">

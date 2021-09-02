@@ -17,13 +17,14 @@
   border: 1px solid #eaeaea;
   padding: 5%;
   border-radius: 2%;
-  display: flex;
-  flex-direction: column;
-  margin: 5%;
+  /* margin: 5%; */
 }
-
-.container > main > article > p {
-  line-height: 2;
+.container > main > article > .articleContainer {
+  color: red;
+}
+.container > main > article > div > p {
+  /* line-height: 2; */
+  /* margin: 5%; */
 }
 .container > footer {
   margin-top: auto;
@@ -33,9 +34,6 @@
   padding: 1%;
 }
 
-.container > footer > div > a {
-  color: #0070f3;
-}
 .container > footer > div > a:hover {
   text-decoration: underline;
 }

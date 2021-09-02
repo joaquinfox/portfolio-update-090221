@@ -109,6 +109,10 @@ export default function Portfolio() {
         ul > li{
           margin:0;
         }
+        ul>li:nth-child(2){
+          border-top:1px solid #eaeaea;
+          margin-top:5%;
+        }
 
       }
         

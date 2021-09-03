@@ -1,12 +1,18 @@
 .nav {
+  width: 100vw;
+  border-bottom: 1px solid #eaeaea;
+  background-color: black;
+  display: flex;
+  padding: 2%;
 }
 /***Primary Nav** */
 .nav > ul {
-  width: 100vw;
+  width: 80vw;
+  margin: auto;
   display: flex;
-  border-bottom: 1px solid #eaeaea;
   justify-content: space-around;
-  padding-bottom: 2%;
+  align-items: center;
+  padding: 2%;
 }
 
 .nav > ul > *:hover {
@@ -14,11 +20,12 @@
 }
 
 /* Icon */
+
 .nav > div > span {
   display: none;
   margin: 4px;
-  height: 5px;
-  width: 40px;
+  height: 4px;
+  width: 30px;
   background: #0070f3;
   border-radius: 9px;
 }
@@ -27,33 +34,38 @@
 .nav > div > ul {
   border-radius: 6%;
   color: white;
-  background-color: rgba(0, 112, 243, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
-  top: 0;
-  right: 1%;
+  top: 5%;
+  left: 1%;
   transition: all 0.15s linear;
-  padding: 1%;
+  padding: 5%;
+}
+.nav>div>ul>li{
+  list-style: none;
 }
 
-.nav li {
-  list-style: none;
-  margin: 10%;
-  letter-spacing: 2px;
-}
 .nav li:hover {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
+  .nav {
+    /* background-color: white; */
+    /* display: none; */
+  }
+
   .nav > div > span {
     display: block;
+    /* margin:  auto; */
   }
   .nav > div {
-    margin-top: 50%;
+    /* margin-top: 50%; */
   }
 
   .nav > ul {
     display: none;
+    visibility: hidden;
   }
 }
 

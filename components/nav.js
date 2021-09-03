@@ -39,13 +39,15 @@ export default function Nav() {
     <NavStyles>
       <ul>
         <Link href="/">Home</Link>
-        <Link href="/book-consult">Book A Visit</Link>
-        <Link href="/about">About</Link>
-        <Link href="/staff-bios">Our Team</Link>
-        <Link href="/faq">FAQ</Link>
+        <Link href="/portfolio">Portfolio</Link>
+        <Link href="/for-employers">For Employers</Link>
       </ul>
 
-      <div onClick={() => toggleNav()} style={{ cursor: "pointer" }}>
+      <div
+        className="nav-icon"
+        onClick={() => toggleNav()}
+        style={{ cursor: "pointer" }}
+      >
         <span></span>
         <span></span>
         <span></span>

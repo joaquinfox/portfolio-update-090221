@@ -3,7 +3,7 @@ import Layout from "../styles/components/layout";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function Portfolio() {
   return (
@@ -84,7 +84,7 @@ export default function Portfolio() {
 
    
 
-      ul> li{
+      ul > li{
         list-style:none;
         padding:5% 0;
         margin:50% 0;

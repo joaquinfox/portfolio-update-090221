@@ -34,15 +34,16 @@
 .nav > div > ul {
   border-radius: 6%;
   color: white;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 5%;
   left: 1%;
   transition: all 0.15s linear;
   padding: 5%;
 }
-.nav>div>ul>li{
-  list-style: none;
+.nav > div > ul > li {
+  margin-top: 5%;
+  padding: 2%;
 }
 
 .nav li:hover {
@@ -50,17 +51,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  .nav {
-    /* background-color: white; */
-    /* display: none; */
-  }
-
   .nav > div > span {
     display: block;
-    /* margin:  auto; */
-  }
-  .nav > div {
-    /* margin-top: 50%; */
   }
 
   .nav > ul {

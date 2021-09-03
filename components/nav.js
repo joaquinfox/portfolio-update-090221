@@ -12,6 +12,7 @@ export default function Nav() {
     let s = await window.innerWidth;
 
     setSize(s);
+    
   };
 
   useEffect(() => {
@@ -64,19 +65,11 @@ export default function Nav() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/book-consult">Book A Visit</Link>
+            <Link href="/portfolio">Portfolio</Link>
           </li>
           <li>
             {" "}
-            <Link href="/about">About</Link>
-          </li>
-          <li>
-            {" "}
-            <Link href="/staff-bios">Our Team</Link>
-          </li>
-          <li>
-            {" "}
-            <Link href="/faq">FAQ</Link>
+            <Link href="/for-employers">For Employers</Link>
           </li>
         </ul>
       </div>

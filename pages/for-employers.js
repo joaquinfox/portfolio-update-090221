@@ -25,18 +25,33 @@ export default function ForEmployers() {
               alt="profile picture of provider 1"
             ></Image>
           </div>
-          <h4>Emma James</h4>
+          <h4>Joaquin Fox</h4>
+          <div className="socialLinks">
+            <span>
+              {" "}
+              <a href="">gh</a>{" "}
+            </span>
+            <span>
+              {" "}
+              <a href="">li</a>{" "}
+            </span>
+            <span>
+              {" "}
+              <a href="">email</a>{" "}
+            </span>
+            <span>
+              {" "}
+              <a href="">CV</a>{" "}
+            </span>
+            {/* <span>
+              {" "}
+              <a href="">joaquinfox.com</a>{" "}
+            </span> */}
+          </div>
           <p>
-            Lorem ipsum dolopellat atque pariatur. Sapiente unde rem illum culpa
-            dolorum?
+          I am a full stack software engineer and web developer, with six years of experience coding in the JavaScript universe. 
           </p>
-          <button>
-            <Link href="/booking/provider1">
-              <a>Book with Emma</a>
-            </Link>
-          </button>
         </article>
-      
       </main>
       <Footer></Footer>
 
@@ -44,30 +59,11 @@ export default function ForEmployers() {
         .profile-pic-container {
           margin: auto;
         }
-        button {
-          margin: auto;
-          padding: 2% 3%;
-          background-color:#0070f3;
-          color:white;
-          border-radius:4%;
-          letter-spacing:2px;
-          font-weight: bold;
-          text-transform: uppercase;
-          border: none;
-          transition: all 0.15s linear;
-          font-size:0.75rem
-        }
-        
-        button:hover{
-          color:#0070f3;
-          background-color:white;
-          border: 1px solid #0070f3;
-        }
-        @media (max-width: 600px){
-          button{
-            width:30%;
-          padding:auto;}
-        }
+ .socialLinks>span{
+  //  margin:auto;
+  padding:3%
+ }
+
         }
       `}</style>
     </Layout>

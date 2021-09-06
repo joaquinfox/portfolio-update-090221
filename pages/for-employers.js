@@ -29,19 +29,25 @@ export default function ForEmployers() {
           <div className="socialLinks">
             <span>
               {" "}
-              <a href="">gh</a>{" "}
+              <a target="_blank" rel="noreferrer noopener" href="https://github.com/joaquinfox">
+                GitHub
+              </a>{" "}
             </span>
             <span>
               {" "}
-              <a href="">li</a>{" "}
+              <a href="https://www.linkedin.com/in/joaquin-fox-203182178/">li</a>{" "}
             </span>
             <span>
               {" "}
-              <a href="">email</a>{" "}
+              <a target="_blank" rel="noreferrer noopener" href="mailto:joaquin.fox@gmail.com">
+                Email
+              </a>{" "}
             </span>
             <span>
               {" "}
-              <a href="">CV</a>{" "}
+              <a target="_blank" rel="noreferrer noopener" href="./joaquinfox_cv.pdf">
+                CV
+              </a>{" "}
             </span>
             {/* <span>
               {" "}

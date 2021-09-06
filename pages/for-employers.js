@@ -18,7 +18,7 @@ export default function ForEmployers() {
           <div className="profile-pic-container">
             <Image
               className="profile-pic"
-              src="/images/profile1.jpg"
+              src="/images/profilepic2.JPG"
               width="150"
               height="150"
               layout=""
@@ -36,30 +36,7 @@ export default function ForEmployers() {
             </Link>
           </button>
         </article>
-        <article>
-          <div className="profile-pic-container">
-            <Image
-              className="profile-pic"
-              src="/images/profile2.jpg"
-              width="150"
-              height="150"
-              layout=""
-              alt="profile picture of provider 2"
-            ></Image>
-          </div>
-          <h4>Abby Sue</h4>
-
-          <p>
-            sit amet consectetur adipisicing elit. Praesentium culpa distinctio
-            non vitae iusto deleniti odit placeat? Cumque sint perspiciatis
-            tempora
-          </p>
-          <button>
-            <Link href="/booking/provider2">
-              <a>Book with Abby</a>
-            </Link>
-          </button>
-        </article>
+      
       </main>
       <Footer></Footer>
 

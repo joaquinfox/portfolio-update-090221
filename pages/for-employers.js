@@ -49,8 +49,56 @@ export default function ForEmployers() {
             </span> */}
           </div>
           <p>
-          I am a full stack software engineer and web developer, with six years of experience coding in the JavaScript universe. 
+            I am a full stack web developer with six years of programming
+            experience. I run an accountability team of international
+            programmers who meet regularly for standups and code reviews and to
+            collaborate on open source and proprietary projects.
           </p>
+          <p>
+            I am interested in all things compute, from web development to AI. I
+            have specific expertise building in a JavaScript universe.
+          </p>
+          <p>
+            I have degrees in economics and finance and I have a professional
+            background in corporate accounting and education. You can see my{" "}
+            <abbr title="curriculum vitae">CV</abbr>{" "}
+            <a
+              href="./joaquinfox_cv.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              here
+            </a>
+            .
+          </p>
+          <p>
+            I offer freelance, custom web developement and app development
+            through my company{" "}
+            <a href="" target="_blank" rel="noreferrer noopener">
+              joaquinfox.com
+            </a>{" "}
+            and I am always open to considering your project, team or company.
+            You can email me
+            <a href="mailto:joaquin.fox@gmail.com"> here. </a>I look forward to
+            connecting.
+          </p>
+          <h4 id="myStack">My Stack</h4>
+          <ul>
+            <li>Node</li>
+            <li>React</li>
+            <li>MongoDB</li>
+            <li>CSS</li>
+            <li>Express</li>
+            <li>Next.JS</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Accessability</li>
+            <li>SEO</li>
+            <li>UX/UI</li>
+            <li>Customized Web and Application Development</li>
+            <li>Version Control</li>
+            <li>Agile</li>
+          </ul>
         </article>
       </main>
       <Footer></Footer>
@@ -59,10 +107,63 @@ export default function ForEmployers() {
         .profile-pic-container {
           margin: auto;
         }
- .socialLinks>span{
-  //  margin:auto;
-  padding:3%
- }
+        .socialLinks{
+          margin-bottom:20%;
+        }
+      .socialLinks>span{
+        //  margin:auto;
+        padding:3%
+      }
+      article{
+        width:80%;
+        margin:auto;
+      }
+      article>p{
+        text-align:left;
+        line-height:3;
+      }
+      ul {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(7, 10%);
+        grid-gap: 2rem;
+        margin-bottom:10%;
+        justify-content:space-around;
+        align-items:center;
+      }
+      
+      ul > li {
+        list-style: none;
+        box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #eaeaea;
+        transition: all 0.15s linear;
+        padding:5%;
+        
+        // font-size:2rem;
+      }
+      ul>li:hover{
+        box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #4D4B4B;
+
+      }
+      #myStack{
+        text-align:left;
+        font-size:2rem;
+      }
+      
+      
+
+      
+      // @media screen and(max-width: 800px){
+      //   article{width:100%}
+      //   ul {
+      //     display: grid;
+      //     grid-template-columns: repeat(1, 100%);
+      //     grid-template-rows: repeat(14, 10%);
+      //     grid-gap: 2rem;
+      //     margin-bottom:10%;
+      //     align-items:center;
+      //   }
+      // }
+ 
 
         }
       `}</style>

@@ -29,23 +29,37 @@ export default function ForEmployers() {
           <div className="socialLinks">
             <span>
               {" "}
-              <a target="_blank" rel="noreferrer noopener" href="https://github.com/joaquinfox">
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://github.com/joaquinfox"
+              >
                 GitHub
               </a>{" "}
             </span>
             <span>
               {" "}
-              <a href="https://www.linkedin.com/in/joaquin-fox-203182178/">li</a>{" "}
+              <a href="https://www.linkedin.com/in/joaquin-fox-203182178/">
+                li
+              </a>{" "}
             </span>
             <span>
               {" "}
-              <a target="_blank" rel="noreferrer noopener" href="mailto:joaquin.fox@gmail.com">
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="mailto:joaquin.fox@gmail.com"
+              >
                 Email
               </a>{" "}
             </span>
             <span>
               {" "}
-              <a target="_blank" rel="noreferrer noopener" href="./joaquinfox_cv.pdf">
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="./joaquinfox_cv.pdf"
+              >
                 CV
               </a>{" "}
             </span>
@@ -65,8 +79,8 @@ export default function ForEmployers() {
             have specific expertise building in a JavaScript universe.
           </p>
           <p>
-            I have degrees in economics and finance and I have a professional
-            background in corporate accounting and education. You can see my{" "}
+            My degrees are in economics and finance and my professional
+            background is in corporate accounting and education. You can see my{" "}
             <abbr title="curriculum vitae">CV</abbr>{" "}
             <a
               href="./joaquinfox_cv.pdf"
@@ -83,8 +97,8 @@ export default function ForEmployers() {
             <a href="" target="_blank" rel="noreferrer noopener">
               joaquinfox.com
             </a>{" "}
-            and I am always open to considering your project, team or company.
-            You can email me
+            . I am open to considering your project, team or company. You can
+            email me
             <a href="mailto:joaquin.fox@gmail.com"> here. </a>I look forward to
             connecting.
           </p>
@@ -117,14 +131,13 @@ export default function ForEmployers() {
           margin-bottom:20%;
         }
       .socialLinks>span{
-        //  margin:auto;
         padding:3%
       }
       article{
         width:80%;
         margin:auto;
       }
-      article>p{
+      article > p{
         text-align:left;
         line-height:3;
       }
@@ -134,7 +147,7 @@ export default function ForEmployers() {
         grid-template-rows: repeat(7, 10%);
         grid-gap: 2rem;
         margin-bottom:10%;
-        justify-content:space-around;
+        justify-content:space-evenly;
         align-items:center;
       }
       
@@ -147,7 +160,7 @@ export default function ForEmployers() {
         // font-size:2rem;
       }
       ul>li:hover{
-        box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #4D4B4B;
+        box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4D4B4B;
 
       }
       #myStack{
@@ -157,18 +170,12 @@ export default function ForEmployers() {
       
       
 
-      
-      // @media screen and(max-width: 800px){
-      //   article{width:100%}
-      //   ul {
-      //     display: grid;
-      //     grid-template-columns: repeat(1, 100%);
-      //     grid-template-rows: repeat(14, 10%);
-      //     grid-gap: 2rem;
-      //     margin-bottom:10%;
-      //     align-items:center;
+      // @media screen and (max-width: 800px) {
+      //   .container>article > p {
+      //     color: red;
       //   }
       // }
+
  
 
         }

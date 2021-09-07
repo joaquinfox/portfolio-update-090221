@@ -97,12 +97,12 @@ export default function ForEmployers() {
             <a href="" target="_blank" rel="noreferrer noopener">
               joaquinfox.com
             </a>{" "}
-            . I am open to considering your project, team or company. You can
-            email me
+            . I am open to considering your project, team or company.
+            You can email me
             <a href="mailto:joaquin.fox@gmail.com"> here. </a>I look forward to
             connecting.
           </p>
-          <h4>My Stack</h4>
+          <h4 id="myStack">My Stack</h4>
           <ul>
             <li>Node</li>
             <li>React</li>
@@ -163,15 +163,15 @@ export default function ForEmployers() {
         box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4D4B4B;
 
       }
-      // #myStack{
-      //   text-align:left;
-      //   font-size:2rem;
-      // }
+      #myStack{
+        text-align:left;
+        font-size:2rem;
+      }
       
       
 
-      // @media screen and (max-width: 800px) {
-      //   .container>article > p {
+      // @media (max-width: 800px) {
+      //   article > p {
       //     color: red;
       //   }
       // }

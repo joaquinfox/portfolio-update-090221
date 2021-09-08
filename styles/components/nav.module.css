@@ -50,7 +50,9 @@
   text-decoration: underline;
 }
 
-
+.dropdown {
+  color: red;
+}
 
 @media screen and (max-width: 600px) {
   .nav > div > span {

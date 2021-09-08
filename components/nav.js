@@ -53,7 +53,7 @@ export default function Nav() {
         <span></span>
         <span></span>
       </div>
-      <div>
+      <div className={NavStyles.dropdown}>
         <ul
           style={{
             width: dropdownWidth,

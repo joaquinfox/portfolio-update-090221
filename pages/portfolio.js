@@ -11,7 +11,7 @@ export default function Portfolio() {
       <Head>
         <title>Joaquin Fox, portfolio</title>
       </Head>
-      <Nav></Nav>
+      <Nav className={Nav.nav}></Nav>
       <main className={Layout.main}>
         <h1>Sample Projects</h1>
         <article>

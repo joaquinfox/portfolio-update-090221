@@ -56,12 +56,8 @@ export default function Nav() {
         <ul
           style={{
             width: dropdownWidth,
-            // opacity: opacity,
+            opacity: opacity,
             display: reveal ? "none" : "block",
-            // position: "absolute",
-            // top: "2rem",
-            // right: "-100",
-            backgroundColor: "rgba(0, 0, 0, 0.7)",
           }}
         >
           <li>

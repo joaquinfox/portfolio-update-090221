@@ -12,7 +12,6 @@ export default function Nav() {
     let s = await window.innerWidth;
 
     setSize(s);
-    
   };
 
   useEffect(() => {
@@ -28,7 +27,7 @@ export default function Nav() {
   const toggleNav = () => {
     setReveal(!reveal);
     if (reveal) {
-      setDropdownWidth(`25%`);
+      setDropdownWidth(`auto`);
       setOpacity(1);
     } else {
       setDropdownWidth("0px");
@@ -53,12 +52,16 @@ export default function Nav() {
         <span></span>
         <span></span>
       </div>
-      <div className={NavStyles.dropdown}>
+      <div>
         <ul
           style={{
             width: dropdownWidth,
-            opacity: opacity,
+            // opacity: opacity,
             display: reveal ? "none" : "block",
+            // position: "absolute",
+            // top: "2rem",
+            // right: "-100",
+            backgroundColor: "rgba(0, 0, 0, 0.7)",
           }}
         >
           <li>

@@ -1,22 +1,17 @@
 .nav {
-  width: 100vw;
-  border-bottom: 1px solid #eaeaea;
-  background-color: black;
-  display: flex;
-  padding: 2%;
 }
 /***Primary Nav** */
 .nav > ul {
   width: 80vw;
-  margin: auto;
+
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 2%;
+
+  border-bottom: 1px solid #eaeaea;
 }
 
 .nav > ul > *:hover {
-  color: #0070f3;
+  /* color: #0070f3; */
 }
 
 /* Icon */
@@ -31,27 +26,24 @@
 }
 
 /* Drop down */
+
 .nav > div > ul {
   border-radius: 6%;
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 112, 243, 0.9);
   position: absolute;
-  top: 5%;
-  left: 1%;
+  top: 0;
+  right: 1%;
   transition: all 0.15s linear;
-  padding: 5%;
+  padding: 1%;
 }
 .nav > div > ul > li {
-  margin-top: 5%;
-  padding: 2%;
+  /* margin-top: 5%; */
+  /* padding: 2%; */
 }
 
 .nav li:hover {
   text-decoration: underline;
-}
-
-.dropdown {
-  color: red;
 }
 
 @media screen and (max-width: 600px) {

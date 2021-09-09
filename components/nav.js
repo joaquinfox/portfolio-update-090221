@@ -60,19 +60,21 @@ export default function Nav() {
             display: reveal ? "none" : "block",
           }}
         >
-          <li>
+          <li className={NavStyles.dropdown}>
             <Link href="/">Home</Link>
           </li>
-          <li>
+          <li className="dropdown">
             <Link href="/portfolio">Portfolio</Link>
           </li>
-          <li>
+          <li className="dropdown">
             {" "}
             <Link href="/for-employers">For Employers</Link>
           </li>
         </ul>
       </div>
-      <style jsx>{``}</style>
+      <style jsx>{`
+       
+      `}</style>
     </NavStyles>
   );
 }

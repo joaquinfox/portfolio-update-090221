@@ -13,7 +13,6 @@ export default function ForEmployers() {
       </Head>
       <Nav></Nav>
       <main className={Layout.main}>
-        <h1>For Employers</h1>
         <article>
           <div className="profile-pic-container">
             <Image

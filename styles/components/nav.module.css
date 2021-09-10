@@ -25,20 +25,23 @@
 
 .nav > div > ul {
   border-radius: 6%;
-  background-color: rgba(6, 6, 7, 0.7);
+  background-color: #0070f3;
   position: absolute;
   top: 0;
   right: 1%;
   transition: all 0.15s linear;
   padding: 5% 2%;
-  z-index: 2;
+  z-index: 1;
 }
 
 .nav > div > ul > li {
   margin: 10% 0;
 }
+.nav > div > ul > li > a {
+  color: white;
+}
 
-.nav li:hover {
+.nav > div > ul > li > a:hover {
   text-decoration: underline;
 }
 

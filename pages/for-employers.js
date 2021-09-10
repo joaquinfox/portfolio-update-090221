@@ -68,15 +68,15 @@ export default function ForEmployers() {
             </span> */}
           </div>
           <p>
-            I am a full stack web developer with six years of programming
-            experience. I run an accountability team of international
-            programmers who meet regularly for standups and code reviews and to
-            collaborate on open source and proprietary projects.
+            Full stack web developer with six years of programming experience. I
+            offer custom Web and application developement through my company <a href="" target="_blank" rel="noreferrer noopener">
+              joaquinfox.com
+            </a>{" "}
+            . I organize a team of international developers who meet regularly
+            for standups and to collaborate on open source, and proprietary
+            projects.
           </p>
-          <p>
-            I am interested in all things compute, from web development to AI. I
-            have specific expertise building in a JavaScript universe.
-          </p>
+    
           <p>
             My degrees are in economics and finance and my professional
             background is in corporate accounting and education. You can see my{" "}
@@ -90,18 +90,8 @@ export default function ForEmployers() {
             </a>
             .
           </p>
-          <p>
-            I offer freelance, custom web developement and app development
-            through my company{" "}
-            <a href="" target="_blank" rel="noreferrer noopener">
-              joaquinfox.com
-            </a>{" "}
-            . I am open to considering your project, team or company.
-            You can email me
-            <a href="mailto:joaquin.fox@gmail.com"> here. </a>I look forward to
-            connecting.
-          </p>
-          <h4 id="myStack">My Stack</h4>
+
+          <h4 id="myStack">Expertise</h4>
           <ul>
             <li>Node</li>
             <li>React</li>

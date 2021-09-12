@@ -3,26 +3,23 @@ import Layout from "../styles/components/layout";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Image from "next/image";
-
-export default function ForEmployers() {
+export default function testpage() {
   return (
     <Layout className={Layout.container}>
       <Head>
-        <title>Joaquin Fox, for Employers</title>
+        <title>testpage</title>
       </Head>
       <Nav></Nav>
-      <main className={Layout.main}>
+      <main classnMae={Layout.main}>
         <article>
-          <div className="profile-pic-container">
-            <Image
-              className="profile-pic"
-              src="/images/profilepic2.JPG"
-              width="150"
-              height="150"
-              layout=""
-              alt="profile picture of provider 1"
-            ></Image>
-          </div>
+          <Image
+            className="profile-pic"
+            src="/images/profilepic2.JPG"
+            width="150"
+            height="150"
+            layout=""
+            alt="profile picture of provider 1"
+          ></Image>
           <h4>Joaquin Fox</h4>
           <div className="socialLinks">
             <span>
@@ -61,12 +58,8 @@ export default function ForEmployers() {
                 CV
               </a>{" "}
             </span>
-            {/* <span>
-              {" "}
-              <a href="">joaquinfox.com</a>{" "}
-            </span> */}
           </div>
-          <p>
+          <p className="testclass">
             I am a full stack web developer with six years of programming
             experience. I offer custom web and application developement through
             my company{" "}
@@ -81,7 +74,8 @@ export default function ForEmployers() {
             coordinate on a private slack channel hosted by{" "}
             <a href="codebuddies.org">codebuddies.org</a>. Are you interested in
             joining an accountability team? We are looking for new members. Send
-            me an email if you would like to know more, subject "accountaibility team".
+            me an email if you would like to know more, subject "accountaibility
+            team".
           </p>
 
           <p>
@@ -91,7 +85,9 @@ export default function ForEmployers() {
               href="./joaquinfox_cv.pdf"
               target="_blank"
               rel="noreferrer noopener"
-            > here
+            >
+              {" "}
+              here
             </a>
             .
           </p>
@@ -100,7 +96,6 @@ export default function ForEmployers() {
             <a href="mailto:joaquin.fox@gmail.com">email</a> me. I look forward
             to connecting.
           </p>
-
           <h4 id="myStack">Expertise</h4>
           <ul>
             <li>Node</li>
@@ -121,61 +116,49 @@ export default function ForEmployers() {
         </article>
       </main>
       <Footer></Footer>
-
       <style jsx>{`
-        .profile-pic-container {
-          // margin: auto;
+        .socialLinks {
+          margin-bottom: 10%;
         }
-        .socialLinks{
-          margin-bottom:10%;
+        .socialLinks > span {
+          padding: 3%;
         }
-      .socialLinks>span{
-        padding:3%
-      }
-      article{
-        width:80%;
-        margin:auto;
-      }
-      article > p{
-        text-align:left;
-        line-height:3;
-      }
-      ul {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: repeat(7, 10%);
-        grid-gap: 2rem;
-        margin-bottom:10%;
-        justify-content:space-evenly;
-        align-items:center;
-      }
+        article {
+          width: 80%;
+          margin: auto;
+        }
+        article > p {
+          text-align: left;
+          line-height: 3;
+        }
+        ul {
+          display: grid;
+          grid-template-columns: repeat(2, 50%);
+          grid-template-rows: repeat(7, 10%);
+          grid-gap: 2rem;
+          margin-bottom: 10%;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+        ul > li {
+          list-style: none;
+          box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #eaeaea;
+          transition: all 0.15s linear;
+          padding: 5%;
+        }
+        ul > li:hover {
+          box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4d4b4b;
+        }
+        #myStack {
+          text-align: left;
+          font-size: 2rem;
+        }
+        @media (max-width: 800px) {
       
-      ul > li {
-        list-style: none;
-        box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #eaeaea;
-        transition: all 0.15s linear;
-        padding:5%;
-        
-      }
-      ul>li:hover{
-        box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4D4B4B;
-
-      }
-      #myStack{
-        text-align:left;
-        font-size:2rem;
-      }
-      
-      
-
-      @media (max-width:800px){
-      .socialLinks{
-        margin-bottom:20%;
-      }
-      }
-
- 
-
+          article > p {
+            text-align: center;
+            line-height: 2;
+          }
         }
       `}</style>
     </Layout>

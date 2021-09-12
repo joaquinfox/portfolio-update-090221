@@ -154,10 +154,14 @@ export default function testpage() {
           font-size: 2rem;
         }
         @media (max-width: 800px) {
-      
+          article > p {
+            // text-align: center;
+            line-height: 2;
+          }
+        }
+        @media (max-width: 600px) {
           article > p {
             text-align: center;
-            line-height: 2;
           }
         }
       `}</style>

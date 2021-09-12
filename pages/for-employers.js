@@ -3,7 +3,6 @@ import Layout from "../styles/components/layout";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ForEmployers() {
   return (
@@ -68,27 +67,38 @@ export default function ForEmployers() {
             </span> */}
           </div>
           <p>
-            Full stack web developer with six years of programming experience. I
-            offer custom Web and application developement through my company <a href="" target="_blank" rel="noreferrer noopener">
+            I am a full stack web developer with six years of programming
+            experience. I offer custom web and application developement through
+            my company{" "}
+            <a href="" target="_blank" rel="noreferrer noopener">
               joaquinfox.com
             </a>{" "}
-            . I organize a team of international developers who meet regularly
-            for standups and to collaborate on open source, and proprietary
-            projects.
+            .
           </p>
-    
           <p>
-            My degrees are in economics and finance and my professional
-            background is in corporate accounting and education. You can see my{" "}
-            <abbr title="curriculum vitae">CV</abbr>{" "}
+            Outside of work, I meet regularly with a team of international
+            developers for standups, code reviews and collaborative projects. We
+            coordinate on a private slack channel hosted by{" "}
+            <a href="codebuddies.org">codebuddies.org</a>. Are you interested in
+            joining an accountability team? We are looking for new members. Send
+            me an email if you would like to know more, subject "accountaibility team".
+          </p>
+
+          <p>
+            I have degrees in economics and finance and experience in corporate
+            accounting and education. You can see my resume
             <a
               href="./joaquinfox_cv.pdf"
               target="_blank"
               rel="noreferrer noopener"
-            >
-              here
+            > here
             </a>
             .
+          </p>
+          <p>
+            Have a project or opportunity to discuss? Please{" "}
+            <a href="mailto:joaquin.fox@gmail.com">email</a> me. I look forward
+            to connecting.
           </p>
 
           <h4 id="myStack">Expertise</h4>
@@ -114,10 +124,10 @@ export default function ForEmployers() {
 
       <style jsx>{`
         .profile-pic-container {
-          margin: auto;
+          // margin: auto;
         }
         .socialLinks{
-          margin-bottom:20%;
+          margin-bottom:10%;
         }
       .socialLinks>span{
         padding:3%
@@ -146,7 +156,6 @@ export default function ForEmployers() {
         transition: all 0.15s linear;
         padding:5%;
         
-        // font-size:2rem;
       }
       ul>li:hover{
         box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4D4B4B;
@@ -159,11 +168,11 @@ export default function ForEmployers() {
       
       
 
-      // @media (max-width: 800px) {
-      //   article > p {
-      //     color: red;
-      //   }
-      // }
+      @media (max-width:800px){
+      .socialLinks{
+        margin-bottom:20%;
+      }
+      }
 
  
 

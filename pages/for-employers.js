@@ -127,8 +127,8 @@ export default function testpage() {
           height: 10px;
           padding: 0;
           font-size: 2rem;
-          transition: color 0.5s, background-color 0.5s;
-
+          transition: color 0.15s, background-color 0.5s, border 0.5s;
+          transition-timeing-function: ease-in;
           margin: 0;
           position: relative;
           top: 8%;
@@ -136,7 +136,7 @@ export default function testpage() {
         .socialLinks > span > a:hover {
           color: white;
           background-color: #0070f3;
-          border: 3px solid black;
+          border: 1px solid black;
           border-radius: 0% 10% 0% 40%;
         }
 
@@ -162,6 +162,7 @@ export default function testpage() {
           box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #eaeaea;
           transition: all 0.15s linear;
           padding: 5%;
+          color: white;
         }
         ul > li:hover {
           box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4d4b4b;

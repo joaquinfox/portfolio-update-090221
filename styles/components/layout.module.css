@@ -1,25 +1,24 @@
 .container {
   height: 100vh;
-  min-width:100vw;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .container > main {
-  /* width: 80%; */
-  /* padding: 5rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-image: linear-gradient(white, black);
+
 }
 .container > main > article {
   border: 1px solid #eaeaea;
   padding: 5%;
   border-radius: 2%;
 }
-
 
 .container > footer {
   margin-top: auto;
@@ -32,4 +31,3 @@
 .container > footer > div > a:hover {
   text-decoration: underline;
 }
-

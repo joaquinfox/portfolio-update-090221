@@ -20,7 +20,49 @@ a:hover {
 .profile-pic {
   border-radius: 100%;
 }
+.about-pic {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image-container {
+  background-color: black;
+  color: white;
+  text-align: left;
+  display: flex;
+  margin-bottom: 5%;
+}
+.image-container2 {
+  background-image: url("../public/images/me-blackwhite2.JPG");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin-bottom: 5%;
+}
 
-li {
-  list-style: none;
+.image-container > p {
+  padding: 3%;
+  font-family: "Inconsolata", monospace;
+  line-height: 2;
+  font-size: 1.25rem;
+  flex-basis: 70%;
+}
+.image-container2 > p {
+  padding: 3%;
+  font-family: "Inconsolata", monospace;
+  line-height: 2;
+  font-size: 1.25rem;
+  flex-basis: 70%;
+  background-color: rgba(10, 1, 1, 0.5);
+}
+
+@media (max-width: 600px) {
+  .image-container {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  .image-container2 {
+    display: none;
+  }
 }

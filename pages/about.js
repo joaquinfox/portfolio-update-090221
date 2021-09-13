@@ -3,145 +3,113 @@ import Layout from "../styles/components/layout";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Image from "next/image";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { RiMailLine } from "react-icons/ri";
-export default function About() {
+import React, { useState } from "react";
 
+export default function About() {
+  const [hero, setHero] = useState(false);
   return (
     <Layout className={Layout.container}>
       <Head>
         <title>About</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Nav></Nav>
       <main classnMae={Layout.main}>
-        <article>
+        <div className="image-container">
           <Image
-            className="profile-pic"
-            src="/images/profilepic2.JPG"
-            width="150"
-            height="150"
+            className="about -pic"
+            src="/images/me-blackwhite.JPG"
+            width="200%"
+            height="100%"
             layout=""
-            alt="profile picture of Joaquin Fox"
+            alt="cartoon graphic of Joaquin Fox"
           ></Image>
-          <h4>Joaquin Fox</h4>
-          <div className="socialLinks">
-            <span>
-              {" "}
-              <a
-                target="_blank"
-                rel="noreferrer noopener"
-                href="https://github.com/joaquinfox"
-              >
-                <FaGithub />
-              </a>{" "}
-            </span>
-            <span>
-              {" "}
-              <a href="https://www.linkedin.com/in/joaquin-fox-203182178/">
-                <FaLinkedin />
-              </a>{" "}
-            </span>
-            <span>
-              {" "}
-              <a
-                target="_blank"
-                rel="noreferrer noopener"
-                href="mailto:joaquin.fox@gmail.com"
-              >
-                <RiMailLine />
-              </a>{" "}
-            </span>
-          </div>
-          <p className="testclass">
-            I am a full stack web developer with six years of programming
-            experience. I offer custom web and application developement through
-            my company{" "}
-            <a href="" target="_blank" rel="noreferrer noopener">
-              joaquinfox.com
-            </a>{" "}
-            .
+          <p>
+            Hi. I'm Joaquin, a web developer and programmer, living in Arizona.
+            I am fascinated by technology, nature and science, and I write about
+            all these things on my blog Simple Sapien.
+          </p>
+        </div>
+        <div className="image-container2">
+          <p>
+            Hi. I'm Joaquin, a web developer and programmer, living in Arizona.
+            I am fascinated by technology, nature and science, and I write about
+            all these things on my blog Simple Sapien.
+          </p>
+        </div>
+        <article>
+          <p>
+            I offer custom web and application development through my company,
+            joaquinfox.com. Have a project you would like talk about? Email me,
+            subject "work", I would love to connect.
           </p>
           <p>
-            Outside of work, I meet regularly with a team of international
-            developers for standups, code reviews and collaborative projects. We
-            coordinate on a private slack channel hosted by{" "}
-            <a href="codebuddies.org">codebuddies.org</a>. Are you interested in
-            joining an accountability team? We are looking for new members. Send
-            me an email if you would like to know more, subject "accountability
-            team".
-          </p>
-
-          <p>
-            I have degrees in economics and finance and experience in corporate
-            accounting and education. You can see my resume
-            <a
-              href="./joaquinfox_cv.pdf"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            I organize an Accountability Team of international developers who
+            meet regularly for standups, code reviews and to generally
+            collaborate, inspire and hold eachother accountable.{" "}
+            <span className="about-text-transition">
               {" "}
-              here
-            </a>
-            .
+              Would you like to be part of an accountability team? We are
+              looking for team members with a focus on JavaScript. Email me with
+              subject "accountability team" if you'd like to know more.
+            </span>
           </p>
           <p>
-            Have a project or opportunity to discuss? Please{" "}
-            <a href="mailto:joaquin.fox@gmail.com">email</a> me. I look forward
-            to connecting.
+            <span className="about-text-transition">
+              Outside of work I am usually coding, exploring a new technology,
+              or enjoying the outdoors with my family. I care deeply about the
+              climate and general health of our planet. Somethings on my mind at
+              the moment are web technologies, agile project management, and
+              capitalism.
+            </span>
           </p>
-          <h4 id="myStack">Expertise</h4>
-          <ul>
-            <li>Node</li>
-            <li>React</li>
-            <li>MongoDB</li>
-            <li>CSS</li>
-            <li>Express</li>
-            <li>Next.JS</li>
-            <li>JavaScript</li>
-            <li>Responsive Web Design</li>
-            <li>Accessability</li>
-            <li>SEO</li>
-            <li>UX/UI</li>
-            <li>Customized Web and Application Development</li>
-            <li>Version Control</li>
-            <li>Agile</li>
-          </ul>
         </article>
       </main>
       <Footer></Footer>
       <style jsx>{`
-        .socialLinks {
-          margin-bottom: 10%;
-          display: flex;
-        }
-        .socialLinks > span {
-          flex-basis: 80%;
-        }
-        .socialLinks > span > a {
-          height: 10px;
-          padding: 0;
-          font-size: 2rem;
-          transition: color 0.15s, background-color 0.5s, border 0.5s;
-          transition-timeing-function: ease-in;
-          margin: 0;
-          position: relative;
-          top: 8%;
-        }
-        .socialLinks > span > a:hover {
-          color: white;
-          background-color: #0070f3;
-          border: 1px solid black;
-          border-radius: 0% 10% 0% 40%;
-        }
+        // .socialLinks {
+        //   margin-bottom: 10%;
+        //   display: flex;
+        // }
+        // .socialLinks > span {
+        //   flex-basis: 80%;
+        // }
+        // .socialLinks > span > a {
+        //   height: 10px;
+        //   padding: 0;
+        //   font-size: 2rem;
+        //   transition: color 0.15s, background-color 0.5s, border 0.5s;
+        //   transition-timeing-function: ease-in;
+        //   margin: 0;
+        //   position: relative;
+        //   top: 8%;
+        // }
+        // .socialLinks > span > a:hover {
+        //   color: white;
+        //   background-color: #0070f3;
+        //   border: 1px solid black;
+        //   border-radius: 0% 10% 0% 40%;
+        // }
 
         article {
           width: 80%;
           margin: auto;
+          //   background-color:white;
+          color: black;
         }
         article > p {
           text-align: left;
           line-height: 3;
+          color: white;
         }
+        // .about-text-transition {
+        //   color: white;
+        // }
         ul {
           display: grid;
           grid-template-columns: repeat(2, 50%);

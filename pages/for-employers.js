@@ -16,11 +16,10 @@ export default function testpage() {
   return (
     <Layout className={Layout.container}>
       <Head>
-        <title>testpage</title>
+        <title>About</title>
       </Head>
       <Nav></Nav>
       <main classnMae={Layout.main}>
-
         <article>
           <Image
             className="profile-pic"
@@ -28,7 +27,7 @@ export default function testpage() {
             width="150"
             height="150"
             layout=""
-            alt="profile picture of provider 1"
+            alt="profile picture of Joaquin Fox"
           ></Image>
           <h4>Joaquin Fox</h4>
           <div className="socialLinks">
@@ -39,13 +38,13 @@ export default function testpage() {
                 rel="noreferrer noopener"
                 href="https://github.com/joaquinfox"
               >
-                <FaGithub size={40} />
+                <FaGithub />
               </a>{" "}
             </span>
             <span>
               {" "}
               <a href="https://www.linkedin.com/in/joaquin-fox-203182178/">
-                <FaLinkedin size={40} />
+                <FaLinkedin />
               </a>{" "}
             </span>
             <span>
@@ -55,7 +54,7 @@ export default function testpage() {
                 rel="noreferrer noopener"
                 href="mailto:joaquin.fox@gmail.com"
               >
-                <RiMailLine size={40} />
+                <RiMailLine />
               </a>{" "}
             </span>
           </div>
@@ -74,7 +73,7 @@ export default function testpage() {
             coordinate on a private slack channel hosted by{" "}
             <a href="codebuddies.org">codebuddies.org</a>. Are you interested in
             joining an accountability team? We are looking for new members. Send
-            me an email if you would like to know more, subject "accountaibility
+            me an email if you would like to know more, subject "accountability
             team".
           </p>
 
@@ -117,20 +116,30 @@ export default function testpage() {
       </main>
       <Footer></Footer>
       <style jsx>{`
-        // .react-icons {
-        //   font-size: 2rem;
-        // }
         .socialLinks {
           margin-bottom: 10%;
+          display: flex;
         }
         .socialLinks > span {
-          padding: 3% 5%;
+          flex-basis: 80%;
         }
-        .sociallinks > span:hover {
-          color: red;
-          background-color: green;
-          border: 2px solid green;
+        .socialLinks > span > a {
+          height: 10px;
+          padding: 0;
+          font-size: 2rem;
+          transition: color 0.5s, background-color 0.5s;
+
+          margin: 0;
+          position: relative;
+          top: 8%;
         }
+        .socialLinks > span > a:hover {
+          color: white;
+          background-color: #0070f3;
+          border: 3px solid black;
+          border-radius: 0% 10% 0% 40%;
+        }
+
         article {
           width: 80%;
           margin: auto;
@@ -157,6 +166,7 @@ export default function testpage() {
         ul > li:hover {
           box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4d4b4b;
         }
+
         #myStack {
           text-align: left;
           font-size: 2rem;

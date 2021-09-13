@@ -5,20 +5,15 @@ import Footer from "../components/footer";
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { RiMailLine } from "react-icons/ri";
-export default function ForEmployers() {
-  // let iconStyles = { fontSize: "2rem", color: "red" };
-  // <IconContext.Provider value={{ className: "myReact-icons" }}>
-  //   <RiMailLine />
-  //   <FaGithub />
-  //   <FaLinkedin />
-  // </IconContext.Provider>;
+export default function About() {
+
   return (
     <Layout className={Layout.container}>
       <Head>
-        <title>For Employers</title>
+        <title>About</title>
       </Head>
       <Nav></Nav>
-      <main className={Layout.main}>
+      <main classnMae={Layout.main}>
         <article>
           <Image
             className="profile-pic"

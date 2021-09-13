@@ -41,6 +41,7 @@ export default function Nav() {
         <Link href="/">Home</Link>
         <Link href="/portfolio">Portfolio</Link>
         <Link href="/for-employers">For Employers</Link>
+        <Link href="/about">About</Link>
       </ul>
 
       <div
@@ -70,11 +71,13 @@ export default function Nav() {
             {" "}
             <Link href="/for-employers">For Employers</Link>
           </li>
+          <li className="dropdown">
+            {" "}
+            <Link href="/about">About</Link>
+          </li>
         </ul>
       </div>
-      <style jsx>{`
-       
-      `}</style>
+      <style jsx>{``}</style>
     </NavStyles>
   );
 }

@@ -3,7 +3,16 @@ import Layout from "../styles/components/layout";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Image from "next/image";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { RiMailLine } from "react-icons/ri";
+import { IconContext } from "react-icons";
 export default function testpage() {
+  let iconStyles = { fontSize: "2rem", color: "red" };
+  // <IconContext.Provider value={{ className: "myReact-icons" }}>
+  //   <RiMailLine />
+  //   <FaGithub />
+  //   <FaLinkedin />
+  // </IconContext.Provider>;
   return (
     <Layout className={Layout.container}>
       <Head>
@@ -11,6 +20,7 @@ export default function testpage() {
       </Head>
       <Nav></Nav>
       <main classnMae={Layout.main}>
+
         <article>
           <Image
             className="profile-pic"
@@ -29,13 +39,13 @@ export default function testpage() {
                 rel="noreferrer noopener"
                 href="https://github.com/joaquinfox"
               >
-                GitHub
+                <FaGithub size={40} />
               </a>{" "}
             </span>
             <span>
               {" "}
               <a href="https://www.linkedin.com/in/joaquin-fox-203182178/">
-                li
+                <FaLinkedin size={40} />
               </a>{" "}
             </span>
             <span>
@@ -45,17 +55,7 @@ export default function testpage() {
                 rel="noreferrer noopener"
                 href="mailto:joaquin.fox@gmail.com"
               >
-                Email
-              </a>{" "}
-            </span>
-            <span>
-              {" "}
-              <a
-                target="_blank"
-                rel="noreferrer noopener"
-                href="./joaquinfox_cv.pdf"
-              >
-                CV
+                <RiMailLine size={40} />
               </a>{" "}
             </span>
           </div>
@@ -117,11 +117,19 @@ export default function testpage() {
       </main>
       <Footer></Footer>
       <style jsx>{`
+        // .react-icons {
+        //   font-size: 2rem;
+        // }
         .socialLinks {
           margin-bottom: 10%;
         }
         .socialLinks > span {
-          padding: 3%;
+          padding: 3% 5%;
+        }
+        .sociallinks > span:hover {
+          color: red;
+          background-color: green;
+          border: 2px solid green;
         }
         article {
           width: 80%;

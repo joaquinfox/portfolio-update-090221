@@ -63,11 +63,10 @@ export default function Test() {
             stack, web and applications developer, with 6 years experience,
             mostly in a JavaScript ecosystem. I am fascinated by all things
             compute, and I love collaborating with others. If you have a project{" "}
-            <span className="white-font">
+       
               or an opportunity you would like to talk over, please
               <a href="mailto:joaquin.fox@gmail.com"> email</a> me. I look me. I
               look forward to connecting.
-            </span>
           </p>
 
           <p>
@@ -94,7 +93,7 @@ export default function Test() {
             </span>
           </p>
           <p></p>
-          <h4 id="myStack">Expertise</h4>
+          <h4 id="myStack">Areas of Expertise</h4>
           <ul>
             <li>Node</li>
             <li>React</li>

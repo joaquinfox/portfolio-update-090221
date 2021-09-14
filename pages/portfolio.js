@@ -68,7 +68,7 @@ export default function Portfolio() {
       }
   
       .thumbnail-image-container{
-        background-color:white;
+        background-color:var(--secondary);
         transition: all 0.15s linear;
       }
  
@@ -84,18 +84,19 @@ export default function Portfolio() {
         line-height:3;
         border-right: 1px solid #aeaeae;
       }
-
    
 
       ul > li{
         list-style:none;
         padding:5% 0;
         margin:50% 0;
-        color:white;
+        color:var(--secondary);
       }
-.text-color{
-  color:white;
-}
+
+      .text-color{
+        color:var(--secondary);
+      }
+
       @media (max-width:1000px){
         .article-container{
           flex-direction:column;

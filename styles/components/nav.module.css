@@ -1,31 +1,24 @@
 /***Primary Nav** */
 .nav > ul {
   width: 80vw;
-
   display: flex;
   justify-content: space-around;
 }
 
-.nav > ul > *:hover {
-  /* color: #0070f3; */
-}
-
 /* Icon */
-
 .nav > div > span {
   display: none;
   margin: 4px;
   height: 4px;
   width: 30px;
-  background: #0070f3;
+  background: var(--primary);
   border-radius: 9px;
 }
 
 /* Drop down */
-
 .nav > div > ul {
   border-radius: 6%;
-  background-color: #0070f3;
+  background-color: var(--primary);
   position: absolute;
   top: 0;
   right: 1%;
@@ -38,7 +31,7 @@
   margin: 10% 0;
 }
 .nav > div > ul > li > a {
-  color: white;
+  color: var(--secondary);
 }
 
 .nav > div > ul > li > a:hover {

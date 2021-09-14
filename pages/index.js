@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Joaquin <a>Fox</a>
+          Joaquin <span id='header-color'>Fox</span>
         </h1>
         <h4>Web Development & Software Engineering</h4>
 
@@ -78,6 +78,11 @@ export default function Home() {
           </a>
         </p>
       </footer>
+      <style jsx>{`
+      #header-color{
+        color: var(--primary)
+      }
+      `}</style>
     </div>
   );
 }

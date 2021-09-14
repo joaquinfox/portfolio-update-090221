@@ -16,12 +16,12 @@
   margin-top: auto;
   width: 100%;
   text-align: center;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid var(--border-color);
 }
 
 .footer a {
   padding-left: 0.5%;
-  color: #0070f3;
+  color: var(--primary);
 }
 
 .footer a:hover,
@@ -30,7 +30,7 @@
   text-decoration: underline;
 }
 .title a {
-  color: #0070f3;
+  color: var(--primary);
 }
 
 .title {
@@ -58,7 +58,7 @@
 .card {
   margin: 1rem;
   padding: 1.5rem;
-  border: 1px solid #eaeaea;
+  border: 1px solid var(--border-color);
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
@@ -69,8 +69,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  border-color: #0070f3;
-  color: #0070f3;
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 @media (max-width: 600px) {

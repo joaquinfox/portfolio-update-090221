@@ -72,34 +72,10 @@ export default function About() {
       </main>
       <Footer></Footer>
       <style jsx>{`
-        // .socialLinks {
-        //   margin-bottom: 10%;
-        //   display: flex;
-        // }
-        // .socialLinks > span {
-        //   flex-basis: 80%;
-        // }
-        // .socialLinks > span > a {
-        //   height: 10px;
-        //   padding: 0;
-        //   font-size: 2rem;
-        //   transition: color 0.15s, background-color 0.5s, border 0.5s;
-        //   transition-timeing-function: ease-in;
-        //   margin: 0;
-        //   position: relative;
-        //   top: 8%;
-        // }
-        // .socialLinks > span > a:hover {
-        //   color: white;
-        //   background-color: #0070f3;
-        //   border: 1px solid black;
-        //   border-radius: 0% 10% 0% 40%;
-        // }
-
+  
         article {
           width: 80%;
-          margin: auto;
-          //   background-color:white;
+          margin: 0 auto 5%;
           color: black;
         }
         article > p {
@@ -107,9 +83,7 @@ export default function About() {
           line-height: 3;
           color: white;
         }
-        // .about-text-transition {
-        //   color: white;
-        // }
+    
         ul {
           display: grid;
           grid-template-columns: repeat(2, 50%);
@@ -124,7 +98,7 @@ export default function About() {
           box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #eaeaea;
           transition: all 0.15s linear;
           padding: 5%;
-          color: white;
+          color: var(--secondary);
         }
         ul > li:hover {
           box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4d4b4b;
@@ -136,7 +110,6 @@ export default function About() {
         }
         @media (max-width: 800px) {
           article > p {
-            // text-align: center;
             line-height: 2;
           }
         }

@@ -52,13 +52,15 @@ a:hover {
   font-size: 1.25rem;
   flex-basis: 70%;
 }
-.image-container2 > p {
-  padding: 3%;
+.image-container2 {
+  padding: 0;
+}
+#background-img {
+  background-color: rgba(75, 70, 70, 0.7);
+  padding: 0 10%;
   font-family: "Inconsolata", monospace;
   line-height: 2;
   font-size: 1.25rem;
-  flex-basis: 70%;
-  background-color: rgba(10, 1, 1, 0.5);
 }
 
 li {

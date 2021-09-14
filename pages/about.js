@@ -19,14 +19,13 @@ export default function About() {
         />
       </Head>
       <Nav></Nav>
-      <main classnMae={Layout.main}>
+      <main className={Layout.main}>
         <div className="image-container">
           <Image
             className="about -pic"
             src="/images/me-blackwhite.JPG"
             width="200%"
             height="100%"
-            layout=""
             alt="cartoon graphic of Joaquin Fox"
           ></Image>
           <p>
@@ -36,11 +35,11 @@ export default function About() {
           </p>
         </div>
         <div className="image-container2">
-          <p>
+          <div id="background-img">
             Hi. I'm Joaquin, a web developer and programmer, living in Arizona.
             I am fascinated by technology, nature and science, and I write about
             all these things on my blog Simple Sapien.
-          </p>
+          </div>
         </div>
         <article>
           <p>
@@ -72,7 +71,6 @@ export default function About() {
       </main>
       <Footer></Footer>
       <style jsx>{`
-  
         article {
           width: 80%;
           margin: 0 auto 5%;
@@ -82,26 +80,6 @@ export default function About() {
           text-align: left;
           line-height: 3;
           color: white;
-        }
-    
-        ul {
-          display: grid;
-          grid-template-columns: repeat(2, 50%);
-          grid-template-rows: repeat(7, 10%);
-          grid-gap: 2rem;
-          margin-bottom: 10%;
-          justify-content: space-evenly;
-          align-items: center;
-        }
-        ul > li {
-          list-style: none;
-          box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #eaeaea;
-          transition: all 0.15s linear;
-          padding: 5%;
-          color: var(--secondary);
-        }
-        ul > li:hover {
-          box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4d4b4b;
         }
 
         #myStack {

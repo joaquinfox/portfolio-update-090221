@@ -27,15 +27,18 @@ export default function Portfolio() {
                   width="600"
                   height="600"
                   alt="link image to fluidaesthetics.com"
+                  backgroundSize="contain"
                 ></Image>
               </div>
             </a>
 
             <p>
-              Built with React and styled with vanilla CSS, Fluid Aesthetics is
-              a landing page and appointment scheduling app for a cosmetics
-              business. Next.js is used for its SEO optimizing features,
-              bundling and fast user interactions.{" "}
+              <span className="text-color">
+                Built with React and styled with vanilla CSS, Fluid Aesthetics
+                is a landing page and appointment scheduling app for a cosmetics
+                business. Next.js is used for its SEO optimizing features,
+                bundling and fast user interactions.{" "}
+              </span>
             </p>
             <ul>
               <li>
@@ -65,9 +68,10 @@ export default function Portfolio() {
       }
   
       .thumbnail-image-container{
-        box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #eaeaea;
+        background-color:white;
         transition: all 0.15s linear;
       }
+ 
 
       .thumbnail-image-container:hover{
         box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #4D4B4B;
@@ -77,7 +81,7 @@ export default function Portfolio() {
         text-align:left;
         margin-left:5%;
         padding-right:5%;
-        line-height:2;
+        line-height:3;
         border-right: 1px solid #aeaeae;
       }
 
@@ -87,8 +91,11 @@ export default function Portfolio() {
         list-style:none;
         padding:5% 0;
         margin:50% 0;
+        color:white;
       }
-
+.text-color{
+  color:white;
+}
       @media (max-width:1000px){
         .article-container{
           flex-direction:column;

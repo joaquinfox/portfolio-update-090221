@@ -28,7 +28,7 @@ export default function Home() {
               </a>
             </Link>
             <p className={styles.description}>
-              Lorem ipsum dolor sit amet con p
+              A gallery of my work.
             </p>
           </article>
           <article className={styles.card}>
@@ -37,7 +37,31 @@ export default function Home() {
                 <h2 className={styles.title}>For Employers&rarr;</h2>
               </a>
             </Link>
-            <p className={styles.description}>bcaecati doloribus.</p>
+            <p className={styles.description}>Hiring? I just might be interested.</p>
+          </article>
+          <article className={styles.card}>
+            <Link href="#">
+              <a>
+                <h2 className={styles.title}>Custom Web Services&rarr;</h2>
+              </a>
+            </Link>
+            <p className={styles.description}>Need a website or application? I offer custom web services for your business or project.</p>
+          </article>
+          <article className={styles.card}>
+            <Link href="/about">
+              <a>
+                <h2 className={styles.title}>About&rarr;</h2>
+              </a>
+            </Link>
+            <p className={styles.description}>Hi. I'm Joaquin, a web developer and programmer, living in Arizona...</p>
+          </article>
+          <article className={styles.card}>
+            <Link href="#">
+              <a>
+                <h2 className={styles.title}>Simple Sapien&rarr;</h2>
+              </a>
+            </Link>
+            <p className={styles.description}>Thoughts, reflections and lessons learned from a simple sapien.</p>
           </article>
         </div>
       </main>

@@ -59,29 +59,23 @@ export default function Test() {
             </span>
           </div>
           <p>
-            I am a full stack web developer with six years of programming
-            experience. I offer custom web and application developement through
-            my company{" "}
-            <a href="" target="_blank" rel="noreferrer noopener">
-              joaquinfox.com
-            </a>{" "}
-            .
+            Welcome and thank you for visiting my portfolio site. I am a full
+            stack, web and applications developer, with 6 years experience,
+            mostly in a JavaScript ecosystem. I am fascinated by all things
+            compute, and I love collaborating with others. If you have a project{" "}
+            <span className="white-font">
+              or an opportunity you would like to talk over, please
+              <a href="mailto:joaquin.fox@gmail.com"> email</a> me. I look me. I
+              look forward to connecting.
+            </span>
           </p>
-          <p>
-            Outside of work, I meet regularly with a team of international
-            developers for standups, code reviews and collaborative projects. We
-            coordinate on a private slack channel hosted by{" "}
-            <a href="codebuddies.org">codebuddies.org</a>. Are you interested in
-            joining an accountability team? We are looking for new members. Send
-            me an email if you would like to know more, subject "accountability
-            team".
-          </p>
-          <hr />
+
           <p>
             <span className="white-font">
-              {" "}
-              I have degrees in economics and finance and experience in
-              corporate accounting and education. You can see my resume
+              <h4>Experience/education. </h4>I offer custom web and application
+              development through my company joaquinfox.com. Previously I have
+              worked in corporate accounting and education. You can see my
+              resume
               <a
                 href="./joaquinfox_cv.pdf"
                 target="_blank"
@@ -95,11 +89,11 @@ export default function Test() {
           </p>
           <p>
             <span className="white-font">
-              Have a project or opportunity to discuss? Please{" "}
-              <a href="mailto:joaquin.fox@gmail.com">email</a> me. I look
-              forward to connecting.
+              I have degrees in economics and finance, both from the University
+              of Arizona and I am fluent in Spanish.
             </span>
           </p>
+          <p></p>
           <h4 id="myStack">Expertise</h4>
           <ul>
             <li>Node</li>
@@ -113,7 +107,7 @@ export default function Test() {
             <li>Accessability</li>
             <li>SEO</li>
             <li>UX/UI</li>
-            <li>Customized Web and Application Development</li>
+            <li>Customized Web  Development</li>
             <li>Version Control</li>
             <li>Agile</li>
           </ul>
@@ -199,10 +193,12 @@ export default function Test() {
         }
         @media (max-width: 600px) {
           ul {
-            padding-right: 10%;
+            padding-right: 15%;
           }
           ul > li {
-            padding: 20%;
+            padding: 10%;
+            
+            font-size: 80%;
           }
           article > p {
             text-align: center;

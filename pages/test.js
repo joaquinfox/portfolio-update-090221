@@ -76,24 +76,29 @@ export default function Test() {
             me an email if you would like to know more, subject "accountability
             team".
           </p>
-
+          <hr />
           <p>
-            I have degrees in economics and finance and experience in corporate
-            accounting and education. You can see my resume
-            <a
-              href="./joaquinfox_cv.pdf"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <span className="white-font">
               {" "}
-              here
-            </a>
-            .
+              I have degrees in economics and finance and experience in
+              corporate accounting and education. You can see my resume
+              <a
+                href="./joaquinfox_cv.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                {" "}
+                here
+              </a>
+              .
+            </span>
           </p>
           <p>
-            Have a project or opportunity to discuss? Please{" "}
-            <a href="mailto:joaquin.fox@gmail.com">email</a> me. I look forward
-            to connecting.
+            <span className="white-font">
+              Have a project or opportunity to discuss? Please{" "}
+              <a href="mailto:joaquin.fox@gmail.com">email</a> me. I look
+              forward to connecting.
+            </span>
           </p>
           <h4 id="myStack">Expertise</h4>
           <ul>
@@ -152,7 +157,6 @@ export default function Test() {
         }
 
         ul {
-          margin: 0;
           display: grid;
           grid-template-columns: repeat(2, 50%);
           grid-template-rows: repeat(7, 10%);
@@ -171,11 +175,13 @@ export default function Test() {
           display: flex;
           align-items: center;
           justify-content: center;
-          // margin: auto;
         }
 
         ul > li:hover {
           box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4d4b4b;
+        }
+        .white-font {
+          color: white;
         }
 
         #myStack {
@@ -192,8 +198,17 @@ export default function Test() {
           }
         }
         @media (max-width: 600px) {
+          ul {
+            padding-right: 10%;
+          }
+          ul > li {
+            padding: 20%;
+          }
           article > p {
             text-align: center;
+          }
+          .socialLinks {
+            width: 100%;
           }
         }
       `}</style>

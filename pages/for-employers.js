@@ -5,7 +5,8 @@ import Footer from "../components/footer";
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { RiMailLine } from "react-icons/ri";
-export default function ForEmployers() {
+
+export default function Test() {
   // let iconStyles = { fontSize: "2rem", color: "red" };
   // <IconContext.Provider value={{ className: "myReact-icons" }}>
   //   <RiMailLine />
@@ -57,7 +58,7 @@ export default function ForEmployers() {
               </a>{" "}
             </span>
           </div>
-          <p className="testclass">
+          <p>
             I am a full stack web developer with six years of programming
             experience. I offer custom web and application developement through
             my company{" "}
@@ -75,24 +76,29 @@ export default function ForEmployers() {
             me an email if you would like to know more, subject "accountability
             team".
           </p>
-
+          <hr />
           <p>
-            I have degrees in economics and finance and experience in corporate
-            accounting and education. You can see my resume
-            <a
-              href="./joaquinfox_cv.pdf"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <span className="white-font">
               {" "}
-              here
-            </a>
-            .
+              I have degrees in economics and finance and experience in
+              corporate accounting and education. You can see my resume
+              <a
+                href="./joaquinfox_cv.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                {" "}
+                here
+              </a>
+              .
+            </span>
           </p>
           <p>
-            Have a project or opportunity to discuss? Please{" "}
-            <a href="mailto:joaquin.fox@gmail.com">email</a> me. I look forward
-            to connecting.
+            <span className="white-font">
+              Have a project or opportunity to discuss? Please{" "}
+              <a href="mailto:joaquin.fox@gmail.com">email</a> me. I look
+              forward to connecting.
+            </span>
           </p>
           <h4 id="myStack">Expertise</h4>
           <ul>
@@ -118,17 +124,19 @@ export default function ForEmployers() {
         .socialLinks {
           margin-bottom: 10%;
           display: flex;
+          width: 30%;
+          margin: auto;
         }
         .socialLinks > span {
-          flex-basis: 80%;
+          flex-basis: 50%;
+
+          margin: 0;
         }
         .socialLinks > span > a {
           height: 10px;
-          padding: 0;
           font-size: 2rem;
           transition: color 0.15s, background-color 0.5s, border 0.5s;
           transition-timeing-function: ease-in;
-          margin: 0;
           position: relative;
           top: 8%;
         }
@@ -147,31 +155,33 @@ export default function ForEmployers() {
           text-align: left;
           line-height: 3;
         }
+
         ul {
-          margin: 0;
           display: grid;
           grid-template-columns: repeat(2, 50%);
           grid-template-rows: repeat(7, 10%);
           grid-gap: 1rem;
           margin-bottom: 10%;
+          padding-right: 10%;
           justify-content: center;
-          background-color: green;
         }
+
         ul > li {
           list-style: none;
           box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #eaeaea;
           transition: all 0.15s linear;
           padding: 5%;
           color: white;
-          background-color: yellow;
           display: flex;
           align-items: center;
           justify-content: center;
-          // align-content: center;
-          // margin: auto;
         }
+
         ul > li:hover {
           box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4d4b4b;
+        }
+        .white-font {
+          color: white;
         }
 
         #myStack {
@@ -180,13 +190,25 @@ export default function ForEmployers() {
         }
         @media (max-width: 800px) {
           article > p {
-            // text-align: center;
+            text-align: center;
             line-height: 2;
+          }
+          .socialLinks > span > a {
+            font-size: 1.5rem;
           }
         }
         @media (max-width: 600px) {
+          ul {
+            padding-right: 10%;
+          }
+          ul > li {
+            padding: 20%;
+          }
           article > p {
             text-align: center;
+          }
+          .socialLinks {
+            width: 100%;
           }
         }
       `}</style>

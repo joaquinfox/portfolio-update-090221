@@ -162,7 +162,7 @@ export default function Test() {
 
         ul > li {
           list-style: none;
-          box-shadow: 0.5rem 0.25rem 0.5rem 0.5rem #eaeaea;
+          box-shadow: 0.1rem 0.15rem .5rem #eaeaea;
           transition: all 0.15s linear;
           padding: 5%;
           color: white;

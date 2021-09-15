@@ -11,22 +11,21 @@ export default function SimpleSapien() {
         <title>Simple Sapien</title>
       </Head>
       {/* <Nav></Nav> */}
+      <div className={styles.titlebanner}>
+        <h2>Simple</h2>
+        <Image
+          className={styles.simpleSapien}
+          src="/images/simple-sapien.png"
+          width="150"
+          height="100"
+          alt="cartoon graphic of Joaquin Fox"
+        ></Image>
+        <h2 className={styles.fontColor}>Sapien</h2>
+      </div>
       <main>
-        <div className={styles.titlebanner}>
-          <h2>Simple</h2>
-          <Image
-            className={styles.simpleSapien}
-            src="/images/simple-sapien.png"
-            width="150"
-            height="100"
-            alt="cartoon graphic of Joaquin Fox"
-          ></Image>
-          <h2 className={styles.fontColor}>Sapien</h2>
-        </div>
-
         <p>
-          Hi, I'm <strong>Joaquin.</strong> In this blog, I explore topics that
-          interest me.
+          Hi, I'm <strong>Joaquin</strong>. In this blog, I explore topics that
+          interest me. You can <a href="">tweet</a>
         </p>
         <h2>Blog</h2>
         <article>
@@ -45,6 +44,7 @@ export default function SimpleSapien() {
           </Link>
           <p>September 20, 2021</p>
         </article>
+       <a href=""> <Link href="/">&larr;Back</Link></a>
       </main>
       <footer>
         <p>
@@ -53,7 +53,8 @@ export default function SimpleSapien() {
             href="https://joaquinfox.github.io/profile//"
             target="_blank"
             rel="noopener noreferrer"
-          >{" "}
+          >
+            {" "}
             Joaquin
           </a>
         </p>

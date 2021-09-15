@@ -7,17 +7,21 @@
   width: 60%;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 0 auto;
+  border: var(--border-color) 1px solid;
+  border-radius: var(--border-radius);
+  padding:var(--std-pad)
 }
 .blog > main > p {
   /* margin: auto; */
 }
 .titlebanner {
   display: flex;
-  margin: auto;
+  margin: 5% auto;
   font-size: 2rem;
 }
 .simpleSapien {
+  border: 3px solid black;
   border-radius: 100%;
 }
 .fontColor {

@@ -10,6 +10,8 @@ body {
   --primary: #0070f3;
   --secondary: white;
   --border-color: #eaeaea;
+  --border-radius: 8%;
+  --std-pad: 5%;
 }
 a {
   color: var(--primary);

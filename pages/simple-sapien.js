@@ -25,7 +25,16 @@ export default function SimpleSapien() {
       <main>
         <p>
           Hi, I'm <strong>Joaquin</strong>. In this blog, I explore topics that
-          interest me. You can <a href="">tweet</a>
+          interest me. Have a comment? You can{" "}
+          <a href="https://twitter.com/joaquinfox_dev">tweet</a> or{" "}
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="mailto:joaquin.fox@gmail.com"
+          >
+            email
+          </a>{" "}
+          me. Thanks for reading!
         </p>
         <h2>Blog</h2>
         <article>
@@ -44,7 +53,10 @@ export default function SimpleSapien() {
           </Link>
           <p>September 20, 2021</p>
         </article>
-       <a href=""> <Link href="/">&larr;Back</Link></a>
+        <a href="">
+          {" "}
+          <Link href="/">&larr;Back</Link>
+        </a>
       </main>
       <footer>
         <p>

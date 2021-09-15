@@ -56,7 +56,7 @@ export default function Home() {
             <p className={styles.description}>Hi. I'm Joaquin, a web developer and programmer, living in Arizona...</p>
           </article>
           <article className={styles.card}>
-            <Link href="#">
+            <Link href="simple-sapien">
               <a>
                 <h2 className={styles.title}>Simple Sapien&rarr;</h2>
               </a>

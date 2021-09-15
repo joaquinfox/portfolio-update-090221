@@ -13,6 +13,9 @@ body {
   --border-radius: 8%;
   --std-pad: 5%;
 }
+.backbutton {
+  color: white;
+}
 a {
   color: var(--primary);
   text-decoration: none;
@@ -32,9 +35,7 @@ a:hover {
   top: 0;
   left: 0;
 }
-/* .simpleSapien-pic {
-  border-radius: 100%;
-} */
+
 .image-container {
   background-color: black;
   color: var(--secondary);
@@ -71,6 +72,7 @@ a:hover {
 li {
   list-style: none;
 }
+
 @media (max-width: 600px) {
   .image-container {
     display: none;

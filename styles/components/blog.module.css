@@ -10,7 +10,7 @@
   margin: 0 auto;
   border: var(--border-color) 1px solid;
   border-radius: var(--border-radius);
-  padding:var(--std-pad)
+  padding: var(--std-pad);
 }
 .blog > main > p {
   /* margin: auto; */
@@ -30,4 +30,17 @@
 .blog > footer {
   margin-top: auto;
   text-align: center;
+}
+
+.blog > main > button {
+  background-color: var(--primary);
+  /* color: red; */
+  /* color: var(--secondary); */
+  width: 4rem;
+  border-radius: var(--border-radius);
+  outline: none;
+  border: none;
+}
+.backbutton {
+  color: white;
 }

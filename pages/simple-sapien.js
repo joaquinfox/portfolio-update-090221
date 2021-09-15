@@ -53,10 +53,12 @@ export default function SimpleSapien() {
           </Link>
           <p>September 20, 2021</p>
         </article>
-        <a href="">
-          {" "}
-          <Link href="/">&larr;Back</Link>
-        </a>
+
+        <button className={styles.backbutton}>
+          <Link className={styles.backbutton} href="/">
+            &larr;Back
+          </Link>
+        </button>
       </main>
       <footer>
         <p>

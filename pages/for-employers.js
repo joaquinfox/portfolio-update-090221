@@ -7,12 +7,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { RiMailLine } from "react-icons/ri";
 
 export default function Test() {
-  // let iconStyles = { fontSize: "2rem", color: "red" };
-  // <IconContext.Provider value={{ className: "myReact-icons" }}>
-  //   <RiMailLine />
-  //   <FaGithub />
-  //   <FaLinkedin />
-  // </IconContext.Provider>;
+
   return (
     <Layout className={Layout.container}>
       <Head>

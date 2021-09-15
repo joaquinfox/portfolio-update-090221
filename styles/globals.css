@@ -30,6 +30,9 @@ a:hover {
   top: 0;
   left: 0;
 }
+/* .simpleSapien-pic {
+  border-radius: 100%;
+} */
 .image-container {
   background-color: black;
   color: var(--secondary);

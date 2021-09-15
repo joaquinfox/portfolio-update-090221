@@ -1,0 +1,29 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.blog > main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.blog > main > p {
+  /* margin: auto; */
+}
+.titlebanner {
+  display: flex;
+  margin: auto;
+  font-size: 2rem;
+}
+.simpleSapien {
+  border-radius: 100%;
+}
+.fontColor {
+  color: var(--primary);
+}
+.blog > footer {
+  margin-top: auto;
+  text-align: center;
+}

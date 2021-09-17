@@ -72,6 +72,19 @@
   border-color: var(--primary);
   color: var(--primary);
 }
+.main > button {
+  background-color: var(--secondary);
+  border-radius: var(--border-radius);
+  outline: none;
+  border: var(--primary) 1px solid;
+  margin: 15% auto 0;
+  font-size: 1.25rem;
+  padding: 1% 2%;
+  text-align: center;
+}
+.main > button > a {
+  color: var(--primary);
+}
 
 @media (max-width: 600px) {
   .card {

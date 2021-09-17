@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/components/blog.module.css";
 import cardStyles from "../styles/components/Home.module.css";
-
 // import Nav from "../components/nav";
 import Image from "next/image";
 import Link from "next/link";

@@ -13,9 +13,7 @@ body {
   --border-radius: 8%;
   --std-pad: 5%;
 }
-.backbutton {
-  color: white;
-}
+
 a {
   color: var(--primary);
   text-decoration: none;

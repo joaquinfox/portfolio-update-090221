@@ -12,9 +12,7 @@
   border-radius: var(--border-radius);
   padding: var(--std-pad);
 }
-.blog > main > p {
-  /* margin: auto; */
-}
+
 .titlebanner {
   display: flex;
   margin: 5% auto;
@@ -34,13 +32,14 @@
 
 .blog > main > button {
   background-color: var(--primary);
-  /* color: red; */
-  /* color: var(--secondary); */
-  width: 4rem;
   border-radius: var(--border-radius);
   outline: none;
   border: none;
+  margin: 15% auto 0;
+  font-size: 1.25rem;
+  padding: 2% 5%;
+  text-align: center;
 }
-.backbutton {
+.blog > main > button > a {
   color: white;
 }

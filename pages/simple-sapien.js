@@ -25,9 +25,9 @@ export default function SimpleSapien() {
       </div>
       <main className={cardStyles.main}>
         <div className={cardStyles.grid}>
-          <p className={cardStyles.description}>
-            Hi, I'm <strong>Joaquin</strong>. In this blog, I explore topics
-            that interest me. Have a comment? You can{" "}
+          <p className="intro">
+            Hi, I'm <strong>Joaquin</strong> and this is my blog, where I
+            explore topics that interest me. Have a comment? You can{" "}
             <a href="https://twitter.com/joaquinfox_dev">tweet</a> or{" "}
             <a
               target="_blank"
@@ -40,39 +40,27 @@ export default function SimpleSapien() {
           </p>
           <article className={cardStyles.card}>
             <a>
+              <Link href="/blogs/accountability">
+                <h2 className={cardStyles.title}>Accountability Teams</h2>
+              </Link>
+            </a>{" "}
+            <p className={cardStyles.description}>
+              What if there were a way to improve your weekly progress towards
+              any goal ... 
+            </p>
+            <p className={styles.datePublished}>September 16, 2021</p>
+          </article>
+          <article className={cardStyles.card}>
+            <a>
               <Link href="/blogs/accountability-team">
-                <h2 className={cardStyles.title}>First Blog</h2>
+                <h2 className={cardStyles.title}>Second Blog</h2>
               </Link>
             </a>{" "}
             <p className={cardStyles.description}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
               ip
             </p>
-            <p>September 12, 2021</p>
-          </article>
-          <article className={cardStyles.card}>
-            <a>
-              <Link href="/blogs/blog2">
-                <h2>Second Blog</h2>
-              </Link>
-            </a>{" "}
-            <p>September 20, 2021</p>
-          </article>
-          <article className={cardStyles.card}>
-            <a>
-              <Link href="/blogs/blog2">
-                <h2>Second Blog</h2>
-              </Link>
-            </a>{" "}
-            <p>September 20, 2021</p>
-          </article>
-          <article className={cardStyles.card}>
-            <a>
-              <Link href="/blogs/blog2">
-                <h2>Second Blog</h2>
-              </Link>
-            </a>{" "}
-            <p>September 20, 2021</p>
+            <p className={styles.datePublished}>September 16, 2021</p>
           </article>
         </div>
 
@@ -93,7 +81,13 @@ export default function SimpleSapien() {
           </a>
         </p>
       </footer>
-      <style jsx>{``}</style>
+      <style jsx>{`
+        .intro {
+          line-height: 2;
+          font-size: 1.25rem;
+          padding: 0 5%;
+        }
+      `}</style>
     </div>
   );
 }

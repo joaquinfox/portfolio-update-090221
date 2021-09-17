@@ -1,6 +1,6 @@
 .titlebanner {
   display: flex;
-  margin: 5% auto;
+  margin: 5% auto 0;
   font-size: 2rem;
 }
 .simpleSapien {
@@ -9,4 +9,8 @@
 }
 .fontColor {
   color: var(--primary);
+}
+
+.datePublished {
+  color: grey;
 }

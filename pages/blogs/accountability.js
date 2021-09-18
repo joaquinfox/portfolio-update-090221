@@ -34,17 +34,17 @@ export default function Accountability() {
               humans learn and attain mastery?
             </p>
             <p>
-              Well this isn't that exaclty. But maybe it's a step in the right
+              Well this isn&apos;t that exaclty. But maybe it&apos;s a step in the right
               direction.
             </p>
             <h3>Less than meets the eye?</h3>
             <p>
-              When I first heard the phrase accountability team, it didn't
+              When I first heard the phrase accountability team, it didn&apos;t
               exactly inspire me. The phrase sounds like corporate jargon for
-              "here is a new way to badger our employees." The word
-              "accountability" can be taken to mean "who's fault is it?", and
-              the word "team" sounds vaguely athletic, which doesn't describe me
-              at all. But at it's root, the idea behind the phrase made sense,
+              &quot;here is a new way to badger our employees.&quot; The word
+              &quot;accountability" can be taken to mean &quot;who&apos;s fault is it?&quot;, and
+              the word &quot;team&quot; sounds vaguely athletic, which doesn&apos;t describe me
+              at all. But at it&apos;s root, the idea behind the phrase made sense,
               and so I decided recently to form an accountability team and to
               see what would come of it.
             </p>
@@ -86,7 +86,7 @@ export default function Accountability() {
               </li>
             </ul>
             <p>
-              I then took these ideas and drafted up a "manifest" which you can
+              I then took these ideas and drafted up a &quot;manifest&quot; which you can
               read here, and posted an invitation to form an accountability team
               on several platforms. At first I had very few interested
               responses, which told me that the idea was either terrible, or
@@ -114,7 +114,7 @@ export default function Accountability() {
                 Each member presents whatever they happen to be working on,
                 discusses any roadblocks they have come across, and sets goal
                 they want to accomplish by the following standup (we call this
-                interval between meetings a 'sprint')
+                interval between meetings a &apos;sprint&apos;)
               </li>
             </ul>
             <p>

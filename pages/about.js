@@ -29,14 +29,14 @@ export default function About() {
             alt="cartoon graphic of Joaquin Fox"
           ></Image>
           <p>
-            Hi. I\'m Joaquin, a web developer and programmer, living in Arizona.
+            Hi. I&apos;'m Joaquin, a web developer and programmer, living in Arizona.
             I am fascinated by technology, nature and science, and I write about
             all these things on my blog Simple Sapien.
           </p>
         </div>
         <div className="image-container2">
           <div id="background-img">
-            Hi. I\'m Joaquin, a web developer and programmer, living in Arizona.
+            Hi. I&apos;m Joaquin, a web developer and programmer, living in Arizona.
             I am fascinated by technology, nature and science, and I write about
             all these things on my blog Simple Sapien.
           </div>
@@ -45,7 +45,7 @@ export default function About() {
           <p>
             I offer custom web and application development through my company,
             joaquinfox.com. Have a project you would like talk about? Email me,
-            subject \"work\", I would love to connect.
+            subject &quot;"work&auot;", I would love to connect.
           </p>
           <p>
             I organize an Accountability Team of international developers who
@@ -55,7 +55,7 @@ export default function About() {
               {" "}
               Would you like to be part of an accountability team? We are
               looking for team members with a focus on JavaScript. Email me with
-              subject \"accountability team\" if you\'d like to know more.
+              subject &quot;"accountability team&quot;" if you&apos;'d like to know more.
             </span>
           </p>
           <p>

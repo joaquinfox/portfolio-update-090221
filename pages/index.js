@@ -53,7 +53,7 @@ export default function Home() {
                 <h2 className={styles.title}>About&rarr;</h2>
               </a>
             </Link>
-            <p className={styles.description}>Hi. I'm Joaquin, a web developer and programmer, living in Arizona...</p>
+            <p className={styles.description}>Hi. I&apos;m Joaquin, a web developer and programmer, living in Arizona...</p>
           </article>
           <article className={styles.card}>
             <Link href="simple-sapien">

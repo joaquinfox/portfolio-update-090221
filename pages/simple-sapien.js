@@ -26,7 +26,7 @@ export default function SimpleSapien() {
       <main className={cardStyles.main}>
         <div className={cardStyles.grid}>
           <p className="intro">
-            Hi, I'm <strong>Joaquin</strong> and this is my blog, where I
+            Hi, I&apos;m <strong>Joaquin</strong> and this is my blog, where I
             explore topics that interest me. Have a comment? You can{" "}
             <a href="https://twitter.com/joaquinfox_dev">tweet</a> or{" "}
             <a
@@ -40,7 +40,7 @@ export default function SimpleSapien() {
           </p>
           <article className={cardStyles.card}>
             <a>
-              <Link href="/blogs/accountability">
+              <Link href="/blogs/accountability" passHref>
                 <h2 className={cardStyles.title}>Accountability Teams</h2>
               </Link>
             </a>{" "}
@@ -52,7 +52,7 @@ export default function SimpleSapien() {
           </article>
           <article className={cardStyles.card}>
             <a>
-              <Link href="/blogs/accountability-team">
+              <Link href="/blogs/accountability-team" passHref>
                 <h2 className={cardStyles.title}>Second Blog</h2>
               </Link>
             </a>{" "}

@@ -42,7 +42,7 @@ export default function Accountability() {
               When I first heard the phrase accountability team, it didn&apos;t
               exactly inspire me. The phrase sounds like corporate jargon for
               &quot;here is a new way to badger our employees.&quot; The word
-              &quot;accountability" can be taken to mean &quot;who&apos;s fault is it?&quot;, and
+              &quot;accountability&quot; can be taken to mean &quot;who&apos;s fault is it?&quot;, and
               the word &quot;team&quot; sounds vaguely athletic, which doesn&apos;t describe me
               at all. But at it&apos;s root, the idea behind the phrase made sense,
               and so I decided recently to form an accountability team and to

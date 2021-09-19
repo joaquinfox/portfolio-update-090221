@@ -4,6 +4,7 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Image from "next/image";
 import React, { useState } from "react";
+import Link from "next/link";
 
 export default function About() {
   const [hero, setHero] = useState(false);
@@ -29,23 +30,26 @@ export default function About() {
             alt="cartoon graphic of Joaquin Fox"
           ></Image>
           <p>
-            Hi. I&apos;m Joaquin, a web developer and programmer, living in Arizona.
-            I am fascinated by technology, nature and science, and I write about
-            all these things on my blog Simple Sapien.
+            Hi. I&apos;m Joaquin, a web and applications developer living in
+            Arizona. I am fascinated by technology, nature and science, and I
+            write about all these things on my blog Simple Sapien.
           </p>
         </div>
         <div className="image-container2">
           <div id="background-img">
-            Hi. I&apos;m Joaquin, a web developer and programmer, living in Arizona.
-            I am fascinated by technology, nature and science, and I write about
-            all these things on my blog Simple Sapien.
+            Hi. I&apos;m Joaquin, a web developer and programmer, living in
+            Arizona. I am fascinated by technology, nature and science, and I
+            write about all these things on my blog{" "}
+            <Link href="/simple-sapien" passHref>
+              <a>Simple Sapien.</a>
+            </Link>
           </div>
         </div>
         <article>
           <p>
             I offer custom web and application development through my company,
             joaquinfox.com. Have a project you would like talk about? Email me,
-            subject &quot;work&auot;, I would love to connect.
+            subject &quot;work&quot;, I would love to connect.
           </p>
           <p>
             I organize an Accountability Team of international developers who
@@ -55,7 +59,8 @@ export default function About() {
               {" "}
               Would you like to be part of an accountability team? We are
               looking for team members with a focus on JavaScript. Email me with
-              subject &quot;accountability team&quot; if you&apos;d like to know more.
+              subject &quot;accountability team&quot; if you&apos;d like to know
+              more.
             </span>
           </p>
           <p>

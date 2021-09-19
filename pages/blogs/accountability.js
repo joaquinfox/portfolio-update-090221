@@ -23,9 +23,16 @@ export default function Accountability() {
         ></Image>
         <h2 className={styles.fontColor}>Sapien</h2>
       </div>
+      <div className={styles.titlebannerSmall}>
+        <div>
+          <h2>Simple</h2>
+          <h2 className={styles.fontColor}>Sapien</h2>
+        </div>
+   
+      </div>
       <main className={cardStyles.main}>
         <div className={cardStyles.grid}>
-          <article>
+          <article className={styles.article}>
             <h2>Accountability Teams</h2>
 
             <p>
@@ -55,17 +62,16 @@ export default function Accountability() {
               periodically report on your progress towards some goal. These wise
               people give you suggestions or commentary, which you then go and
               do your best to apply. Titans of industry, executives, the rich,
-              powerful and ambitiious can all use these teams meetings to reach
+              powerful and ambitiious can all use these team meetings to reach
               ever greater heights. And maybe, so could an aspiring developer
               like me.
             </p>
             <p>
-              But some questions come up immediately. Do I know any sage
-              developers? And could I get them to dedicate time to me, on a
-              regular basis, without having anything to offer in exchange? And
-              if I am good at researching and solving problems I come accross,
-              and if I am grown up and able to set my own course in life, what
-              exactly would I hope to gain from these meetings?
+              But some questions came up immediately. Do I know any sage
+              developers? Could I get them to dedicate time to me, on a
+              regular basis, without having anything to offer in exchange? If I am good at researching and solving problems that I come accross,
+              and if I am grown up and able to set my own course in life, then what
+              exactly is it I hope to gain from these meetings?
             </p>
             <h3>The Experiment</h3>
             <p>

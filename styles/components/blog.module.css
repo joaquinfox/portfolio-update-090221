@@ -22,6 +22,9 @@
   font-size: 1.25rem;
   padding: 0 5%;
 }
+.article {
+  font-size: auto;
+}
 @media (max-width: 550px) {
   .titlebanner {
     display: none;
@@ -37,8 +40,6 @@
     display: flex;
     width: 100%;
     background-position: center;
-    /* flex-direction: column; */
-    /* justify-content: start; */
     letter-spacing: -10px;
     margin: 0;
     padding: 0;
@@ -48,8 +49,7 @@
   .titlebannerSmal > div > h2 {
     margin: 0;
   }
-  .simpleSapienSmall {
-    /* float: right; */
-    margin: 0;
+  .article {
+    font-size: 80%;
   }
 }

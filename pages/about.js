@@ -67,7 +67,7 @@ export default function About() {
             <span className="about-text-transition">
               Outside of work I am usually coding, exploring a new technology,
               or enjoying the outdoors with my family. I care deeply about the
-              climate and general health of our planet. Somethings on my mind at
+              climate and health of our planet. Somethings on my mind at
               the moment are web technologies, agile project management, and
               capitalism.
             </span>

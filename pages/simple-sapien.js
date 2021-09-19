@@ -23,9 +23,16 @@ export default function SimpleSapien() {
         ></Image>
         <h2 className={styles.fontColor}>Sapien</h2>
       </div>
+      <div className={styles.titlebannerSmall}>
+        <div>
+          <h2>Simple</h2>
+          <h2 className={styles.fontColor}>Sapien</h2>
+        </div>
+   
+      </div>
       <main className={cardStyles.main}>
         <div className={cardStyles.grid}>
-          <p className="intro">
+          <p className={styles.intro}>
             Hi, I&apos;m <strong>Joaquin</strong> and this is my blog, where I
             explore topics that interest me. Have a comment? You can{" "}
             <a href="https://twitter.com/joaquinfox_dev">tweet</a> or{" "}
@@ -38,7 +45,7 @@ export default function SimpleSapien() {
             </a>{" "}
             me. Thanks for reading!
           </p>
-          <article className={cardStyles.card}>
+          <article className={cardStyles.blogCard}>
             <a>
               <Link href="/blogs/accountability" passHref>
                 <h2 className={cardStyles.title}>Accountability Teams</h2>
@@ -46,11 +53,11 @@ export default function SimpleSapien() {
             </a>{" "}
             <p className={cardStyles.description}>
               What if there were a way to improve your weekly progress towards
-              any goal ... 
+              any goal ...
             </p>
             <p className={styles.datePublished}>September 16, 2021</p>
           </article>
-          <article className={cardStyles.card}>
+          <article className={cardStyles.blogCard}>
             <a>
               <Link href="/blogs/accountability-team" passHref>
                 <h2 className={cardStyles.title}>Second Blog</h2>
@@ -81,13 +88,7 @@ export default function SimpleSapien() {
           </a>
         </p>
       </footer>
-      <style jsx>{`
-        .intro {
-          line-height: 2;
-          font-size: 1.25rem;
-          padding: 0 5%;
-        }
-      `}</style>
+      <style jsx>{``}</style>
     </div>
   );
 }

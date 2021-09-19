@@ -3,6 +3,9 @@
   margin: 5% auto 0;
   font-size: 2rem;
 }
+.titlebannerSmall {
+  display: none;
+}
 .simpleSapien {
   border: 3px solid black;
   border-radius: 100%;
@@ -13,4 +16,40 @@
 
 .datePublished {
   color: grey;
+}
+.intro {
+  line-height: 2;
+  font-size: 1.25rem;
+  padding: 0 5%;
+}
+@media (max-width: 550px) {
+  .titlebanner {
+    display: none;
+  }
+  .titlebannerSmall {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    width: 100%;
+    background-color: green;
+  }
+  .titlebannerSmall > div {
+    display: flex;
+    width: 100%;
+    background-position: center;
+    /* flex-direction: column; */
+    /* justify-content: start; */
+    letter-spacing: -10px;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/simple-sapien.png");
+    background-size: cover;
+  }
+  .titlebannerSmal > div > h2 {
+    margin: 0;
+  }
+  .simpleSapienSmall {
+    /* float: right; */
+    margin: 0;
+  }
 }

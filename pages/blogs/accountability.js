@@ -87,7 +87,7 @@ export default function Accountability() {
             </ul>
             <p>
               I then took these ideas and drafted up a &quot;manifest&quot; which you can
-              read here, and posted an invitation to form an accountability team
+              read <a href="https://github.com/joaquinfox/A-Team-Manifest">here</a>, and posted an invitation to form an accountability team
               on several platforms. At first I had very few interested
               responses, which told me that the idea was either terrible, or
               just too unfamiliar. This also told me that in order to garner

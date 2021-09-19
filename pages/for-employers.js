@@ -60,7 +60,7 @@ export default function Test() {
             compute, and I love collaborating with others. If you have a project{" "}
        
               or an opportunity you would like to talk over, please
-              <a href="mailto:joaquin.fox@gmail.com"> email</a> me. I look me. I
+              <a href="mailto:joaquin.fox@gmail.com"> email</a> me. I
               look forward to connecting.
           </p>
 

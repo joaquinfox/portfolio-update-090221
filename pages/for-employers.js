@@ -164,7 +164,7 @@ export default function Test() {
         }
 
         ul > li:hover {
-          box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #4d4b4b;
+          box-shadow: 0.5rem 0.25rem 0.5rem 0.3rem #eeeeee;
         }
         .white-font {
           color: white;

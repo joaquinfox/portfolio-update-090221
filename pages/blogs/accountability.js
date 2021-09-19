@@ -88,7 +88,7 @@ export default function Accountability() {
               </li>
               <li>
                 The meetups would have to occur regularly and consistently in
-                order to create the intended sense of commitment
+                order to create the intended sense of commitment.
               </li>
             </ul>
             <p>

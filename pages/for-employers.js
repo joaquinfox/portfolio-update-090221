@@ -64,7 +64,7 @@ export default function Test() {
 
           <p>
             <span className="white-font">
-              <h4>Experience/education. </h4>I offer custom web and application
+              <h4>Experience. </h4>I offer custom web and application
               development through my company joaquinfox.com. Previously I have
               worked in corporate accounting and education. You can see my
               resume
@@ -170,7 +170,7 @@ export default function Test() {
           color: white;
         }
 
-        #myStack,
+        // #myStack,
         h4 {
           text-align: left;
           font-size: 2rem;

@@ -7,7 +7,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { RiMailLine } from "react-icons/ri";
 
 export default function Test() {
-
   return (
     <Layout className={Layout.container}>
       <Head>
@@ -58,10 +57,9 @@ export default function Test() {
             stack, web and applications developer, with 6 years experience,
             mostly in a JavaScript ecosystem. I am fascinated by all things
             compute, and I love collaborating with others. If you have a project{" "}
-       
-              or an opportunity you would like to talk over, please
-              <a href="mailto:joaquin.fox@gmail.com"> email</a> me. I
-              look forward to connecting.
+            or an opportunity you would like to talk over, please
+            <a href="mailto:joaquin.fox@gmail.com"> email</a> me. I look forward
+            to connecting.
           </p>
 
           <p>
@@ -101,7 +99,7 @@ export default function Test() {
             <li>Accessability</li>
             <li>SEO</li>
             <li>UX/UI</li>
-            <li>Customized Web  Development</li>
+            <li>Customized Web Development</li>
             <li>Version Control</li>
             <li>Agile</li>
           </ul>
@@ -156,7 +154,7 @@ export default function Test() {
 
         ul > li {
           list-style: none;
-          box-shadow: 0.1rem 0.15rem .5rem #eaeaea;
+          box-shadow: 0.1rem 0.15rem 0.5rem #eaeaea;
           transition: all 0.15s linear;
           padding: 5%;
           color: white;
@@ -172,7 +170,8 @@ export default function Test() {
           color: white;
         }
 
-        #myStack {
+        #myStack,
+        h4 {
           text-align: left;
           font-size: 2rem;
         }
@@ -191,7 +190,7 @@ export default function Test() {
           }
           ul > li {
             padding: 10%;
-            
+
             font-size: 80%;
           }
           article > p {
